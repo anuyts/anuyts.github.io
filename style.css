@@ -1,0 +1,35 @@
+body {
+  background-color: beige;
+  font-family: "Linux Biolinum";
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+h1 {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+/* unvisited link */
+a:link {
+  color: darkred;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: palevioletred;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  text-decoration: underline;
+}
