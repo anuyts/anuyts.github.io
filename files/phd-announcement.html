@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<title>Contributions to Multimode and Presheaf Type Theory</title>
+
+<h1>Contributions to Multimode and Presheaf Type Theory</h1>
+
+<p>Dependent type theory is a theoretical programming language in which programmers can not only write their programs but also prove properties of these programs (e.g. that they satisfy their specification) and have these proofs checked by the type-checker. This type-checker is however a bad understander and requires a proof of every lemma invoked, no matter how obvious. This damages the practical usability of dependently typed languages.</p>
+
+<p>Reynolds' framework of relational parametricity, which is based on the observation that all type formers in a well-behaved language have an action on relations and that all polymorphic functions in such language respect these relations (they are <strong>parametric</strong>), gives us a large class of "obvious" theorems for free.
+Based on the observation that all functions in a well-behaved language respect isomorphism, homotopy type theory (HoTT) gives us a <em>different</em> class of "obvious" theorems <em>and</em> obvious isomorphisms for free.</p>
+
+<p>Neither framework is entirely satisfying. Indeed, while all functions have a graph relation, a relation in general cannot be applied to an input to compute an output, so that preservation of relations is often insufficient. On the other hand, while all isomorphisms are functions, there are many interesting functions that are not isomorphisms.</p>
+
+<p>Directed type theory should start from the observation that all <strong>covariant</strong> type formers have an action on transformations, and that all polymorphic functions between such types commute with these transformations (they are <strong>natural</strong>). Thus, we expect that directed type theory can give us a class — larger than the aforementioned ones – of theorems <em>and</em> computable transformations for free.</p>
+
+<p>Sadly, not all type formers are covariant and not all polymorphic functions of interest are necessarily parametric or natural. Thus, we need an (ideally automatic) bookkeeping system for keeping track of which functions are and which are not. This bookkeeping system is provided by modal (and more generally multimode) type theory, where every function is annotated by a modality describing its behaviour.</p>
+
+<p>When we extend dependent type theory, we should prove that this extension is sound, i.e. that it is still only possible to prove theorems that are true. This is asserted by building a mathematical model; for the applications above, one typically uses <strong>presheaf</strong> categories.</p>
+
+<p>This thesis makes several contributions in the areas of modal (multimode) and presheaf type theory, in order to pave the way towards a directed type theory that attains the goals mentioned above.</p>
+
+</body>
+</html>

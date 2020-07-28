@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<title>Bijdragen aan Multimodus- en Preschooftypetheorie</title>
+
+<h1>Bijdragen aan Multimodus- en Preschooftypetheorie</h1>
+
+<p>Dependent type theory is een theoretische programmeertaal waarin men niet alleen programma's kan schrijven, maar ook eigenschappen van die programma's (bv. dat ze aan hun specificatie voldoen) kan bewijzen en deze bewijzen kan laten nagaan door de type-checker. Die type-checker is echter een slechte verstaander en vereist een bewijs van elk gebruikt deelresultaat, ongeacht hoe voordehandliggend. Dit schaadt de praktische bruikbaarheid van dependently typed programmeertalen.</p>
+
+<p>Reynolds' framework van relationele parametriciteit, dat vertrekt van de observatie dat alle typeconstructoren in een "brave" taal een actie op relaties hebben en dat alle polymorfe functies in zo'n taal deze relaties respecteren (ze zijn dan <strong>parametrisch</strong>), geeft ons een brede klasse van voordehandliggende stellingen gratis.
+Vanuit de observatie dat alle functies in een brave taal isomorfisme respecteren, geeft homotopietypetheorie (HoTT) ons een ándere klasse van voordehandliggende stellingen én isomorfismen gratis.</p>
+
+<p>Geen van beide frameworks stelt echter volledig tevreden. Inderdaad: hoewel alle functies een grafiekrelatie hebben, kan een relatie in het algemeen niet worden toegepast op een input om een output te berekenen, zodat behoud van relaties vaak niet volstaat. En anderzijds: hoewel alle isomorfismen functies zijn, zijn heel wat interessante functies geen isomorfismen.</p>
+
+<p>Directed type theory zou vertrekken vanuit de observatie dat alle <strong>covariante</strong> typeconstructoren een actie op transformaties hebben, en dat alle polymorfe functies tussen dergelijke types commuteren met deze transformaties (ze zijn dan <strong>natuurlijk</strong>). We verwachten dus dat directed type theory ons een grotere klasse van stellingen én berekenbare transformaties dan de eerdergenoemde gratis kan geven.</p>
+
+<p>Helaas zijn niet alle typeconstructoren covariant en zijn niet alle interessante polymorfe functies per se parametrisch of natuurlijk. We hebben daarom een (idealiter automatisch) boekhoudsysteem nodig dat bijhoudt welke functies dit wel zijn en welke niet. Hiervoor wenden we ons tot modale (en meer in het algemeen multimodus-)typetheorie, waar elke functie wordt geannoteerd met een modaliteit die haar gedrag beschrijft.</p>
+
+<p>Wanneer we dependent type theory uitbreiden, horen we aan te tonen dat deze uitbreiding consistent is, d.w.z. dat nog steeds alleen ware stellingen bewezen kunnen worden. Dit wordt bevestigd door het bouwen van een wiskundig model; voor de eerdergenoemde toepassingen gebruikt men doorgaans preschoofcategorieën.</p>
+
+<p>Deze thesis levert een aantal bijdragen in het gebied van modale (multimodus-) en preschooftypetheorie, ter voorbereiding van de ontwikkeling van een directed type theory die bovenstaande doelen waarmaakt.</p>
+
+</body>
+</html>
