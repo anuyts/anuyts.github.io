@@ -122,16 +122,29 @@
 	title = {Type Theory \`a la Mode},
 	year = {2020},
 	note = {Pre-print},
-	url = {https://people.cs.kuleuven.be/~andreas.nuyts/mtt-techreport.pdf}
+	url = {https://anuyts.github.io/files/mtt-techreport.pdf}
 }
 
 @inproceedings{mtt-paper,
-  author    = {Daniel Gratzer and G.A. Kavvos and Andreas Nuyts and Lars Birkedal},
+  author    = {Daniel Gratzer and
+               G. A. Kavvos and
+               Andreas Nuyts and
+               Lars Birkedal},
+  editor    = {Holger Hermanns and
+               Lijun Zhang and
+               Naoki Kobayashi and
+               Dale Miller},
   title     = {Multimodal Dependent Type Theory},
-  booktitle = {LICS 2020},
+  booktitle = {{LICS} '20: 35th Annual {ACM/IEEE} Symposium on Logic in Computer
+               Science, Saarbr{\"{u}}cken, Germany, July 8-11, 2020},
+  pages     = {492--506},
+  publisher = {{ACM}},
   year      = {2020},
-  url       = {https://people.cs.kuleuven.be/~andreas.nuyts/mtt-paper.pdf},
-  note      = {Accepted},
+  url       = {https://doi.org/10.1145/3373718.3394736},
+  doi       = {10.1145/3373718.3394736},
+  timestamp = {Tue, 02 Jun 2020 17:19:31 +0200},
+  biburl    = {https://dblp.org/rec/conf/lics/GratzerKNB20.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
 @unpublished{transpension-techreport,
@@ -139,7 +152,7 @@
 	title = {The Transpension Type: Technical Report},
 	year = {2020},
 	note = {Pre-print},
-	url = {https://people.cs.kuleuven.be/~andreas.nuyts/transpension-techreport.pdf},
+	url = {https://anuyts.github.io/files/transpension-techreport.pdf},
 }
 
 @inproceedings{how-to-do-proofs,
@@ -181,4 +194,12 @@ title = {Reasoning about Effect Parametricity Using Dependent Types},
 author = {Ceulemans, Joris and Nuyts, Andreas and Devriese, Dominique},
 booktitle = {Type-Driven Development (TyDe)},
 url = {http://tydeworkshop.org/2019-abstracts/paper11.pdf},
+}
+
+@unpublished{transpension,
+	author = {Andreas Nuyts and Dominique Devriese},
+	title = {Transpension: The Right Adjoint to the Pi-Type},
+	year = {2020},
+	note = {Pre-print},
+	url = {https://anuyts.github.io/files/transpension-paper.pdf},
 }
