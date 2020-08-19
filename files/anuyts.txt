@@ -203,3 +203,13 @@ url = {http://tydeworkshop.org/2019-abstracts/paper11.pdf},
 	note = {Pre-print},
 	url = {https://anuyts.github.io/files/transpension-paper.pdf},
 }
+
+@phdthesis{nuyts-phd,
+  author	= {Andreas Nuyts},
+  month		= {8},
+  year		= {2020},
+  school	= {KU Leuven},
+  address	= {Belgium},
+  title		= {Contributions to Multimode and Presheaf Type Theory},
+  url		= {https://anuyts.github.io/files/phd.pdf},
+}
