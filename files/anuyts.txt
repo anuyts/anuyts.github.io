@@ -147,14 +147,6 @@
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@unpublished{transpension-techreport,
-	author = {Andreas Nuyts},
-	title = {The Transpension Type: Technical Report},
-	year = {2020},
-	note = {Pre-print},
-	url = {https://anuyts.github.io/files/transpension-techreport.pdf},
-}
-
 @inproceedings{how-to-do-proofs,
   author    = {Koen Jacobs and
                Andreas Nuyts and
@@ -196,12 +188,22 @@ booktitle = {Type-Driven Development (TyDe)},
 url = {http://tydeworkshop.org/2019-abstracts/paper11.pdf},
 }
 
-@unpublished{transpension,
-	author = {Andreas Nuyts and Dominique Devriese},
-	title = {Transpension: The Right Adjoint to the Pi-Type},
-	year = {2020},
-	note = {Pre-print},
-	url = {https://anuyts.github.io/files/transpension-paper.pdf},
+@misc{transpension,
+    title={Transpension: The Right Adjoint to the Pi-type},
+    author={Andreas Nuyts and Dominique Devriese},
+    year={2020},
+    eprint={2008.08533},
+    archivePrefix={arXiv},
+    primaryClass={cs.LO}
+}
+
+@misc{transpension-techreport,
+    title={The Transpension Type: Technical Report},
+    author={Andreas Nuyts},
+    year={2020},
+    eprint={2008.08530},
+    archivePrefix={arXiv},
+    primaryClass={cs.LO}
 }
 
 @phdthesis{nuyts-phd,
