@@ -215,3 +215,11 @@ url = {http://tydeworkshop.org/2019-abstracts/paper11.pdf},
   title		= {Contributions to Multimode and Presheaf Type Theory},
   url		= {https://anuyts.github.io/files/phd.pdf},
 }
+
+@misc{nattt-vision,
+    author = {Andreas Nuyts},
+    title = {A Vision for Natural Type Theory},
+    year = {2020},
+    howpublished = {Unpublished note},
+    url = {https://anuyts.github.io/files/nattt-vision.pdf},
+}
