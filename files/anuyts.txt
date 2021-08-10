@@ -147,6 +147,18 @@
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
+@article{mtt-journal,
+  TITLE = {{Multimodal Dependent Type Theory}},
+  AUTHOR = {Daniel Gratzer and G. A. Kavvos and Andreas Nuyts and Lars Birkedal},
+  URL = {https://lmcs.episciences.org/7713},
+  DOI = {10.46298/lmcs-17(3:11)2021},
+  JOURNAL = {{Logical Methods in Computer Science}},
+  VOLUME = {{Volume 17, Issue 3}},
+  YEAR = {2021},
+  MONTH = Jul,
+  KEYWORDS = {Computer Science - Logic in Computer Science},
+}
+
 @inproceedings{how-to-do-proofs,
   author    = {Koen Jacobs and
                Andreas Nuyts and
