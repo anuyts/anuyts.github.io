@@ -1,4 +1,6 @@
 body {
+  counter-reset: section;
+
   background-color: beige;
   font-family: "Linux Biolinum";
   margin-top: 60px;
@@ -7,9 +9,28 @@ body {
   margin-left: 60px;
 }
 
+h1:before {
+  counter-increment: section;
+}
+
 h1 {
+  counter-reset: subsection;
+
   margin-bottom: 100px;
   text-align: center;
+}
+
+h2:before {
+  counter-increment: subsection;
+}
+
+h2 {
+  counter-reset: subsubsection;
+}
+
+h3:before {
+  counter-increment: subsubsection;
+  content: counter(subsubsection) ". ";
 }
 
 /* unvisited link */
