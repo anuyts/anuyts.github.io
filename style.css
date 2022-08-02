@@ -5,8 +5,9 @@ body {
   font-family: "Linux Biolinum";
   margin-top: 60px;
   margin-bottom: 60px;
-  margin-right: 60px;
-  margin-left: 60px;
+  margin-right: max(min(15%,60px),calc(50% - 500px));
+  margin-left: max(min(15%,60px),calc(50% - 500px));
+  width: min(max(70%,calc(100% - 120px)),1000px);
 }
 
 h1:before {
