@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<title>Reading Materials</title>
+
+<h2 id="reading-materials">Reading materials</h2>
+<p>This is a list of reading materials that I would recommend for any or all of the following reasons: - because they’re related to my research, - because they’re relevant to master thesis students, - because I like them.</p>
+<h3 id="general">General</h3>
+<ul>
+<li>The <a href="https://ncatlab.org">nLab</a> is a kind of Wikipedia for type theory and category theory. The accessibility of its articles varies wildly, but in any case it’s always a good place to start looking for literature pointers.</li>
+</ul>
+<h3 id="introduction-to-category-theory">Introduction to Category Theory</h3>
+<ul>
+<li>An accessible and very thorough introduction to category theory: <a href="https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/" class="uri">https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/</a></li>
+<li>Especially relevant for side effects: a brief but very illuminating text by H. Kleisli about the Kleisli category: <a href="http://www.ams.org/journals/proc/1965-016-03/S0002-9939-1965-0177024-4/S0002-9939-1965-0177024-4.pdf" class="uri">http://www.ams.org/journals/proc/1965-016-03/S0002-9939-1965-0177024-4/S0002-9939-1965-0177024-4.pdf</a> You can understand monads in functional programming as follows: pure programs (without side effects) are arrows in the category <code>Type</code> of types and functions; effectful programs (with side effects) in monad <code>T : Type -&gt; Type</code> are arrows in the Kleisli category of <code>T</code>.</li>
+<li>A text about monads and universal algebra from a mathematical viewpoint, by Anthony Voutas: “The basic theory of monads and their connection to universal algebra” <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.261.1433&amp;rep=rep1&amp;type=pdf" class="uri">http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.261.1433&amp;rep=rep1&amp;type=pdf</a> (Let me know if the link doesn’t work.) What’s nice is that he takes his time to explain everything and does not require much prior knowledge. Section 1 is a formula-free introduction, sections 2 and 3 are certainly worth the while. Sections 4 and 5 are interesting but not especially relevant.</li>
+</ul>
+<h3 id="introduction-to-simple-type-theory">Introduction to Simple Type Theory</h3>
+<ul>
+<li>The book “Types and Programming Languages” (a.k.a. TAPL) by Benjamin C. Pierce, chapter 9 and prerequisites (see the dependency graph in the book’s front matter). This book is also the lecture material of the <a href="https://onderwijsaanbod.kuleuven.be/syllabi/e/H04H8BE.htm">Formal Systems</a> course. Aside of introducing simple type theory, this book focuses more on aspects of computation and decidability and less on matters of logic, soundness or categorical models. I expect that the master thesis is more likely focus on the latter. It seems pdfs are available online.</li>
+</ul>
+<h3 id="introduction-to-haskell">Introduction to Haskell</h3>
+<p>(Not a necessity to learn Agda. Haskell is an incarnation of the kind of theoretical programming languages that is studied in the <a href="https://onderwijsaanbod.kuleuven.be/syllabi/e/H04H8BE.htm">Formal Systems</a> course.)</p>
+<ul>
+<li><a href="http://learnyouahaskell.com/">Learn you a Haskell for Great Good, Miran Lipovača</a>. Note: this tutorial parodies grammatical errors made by non-native English speakers.</li>
+</ul>
+<h3 id="introduction-to-dependent-type-theory-and-agda">Introduction to Dependent Type Theory and Agda</h3>
+<ul>
+<li>I still think chapter 1 (and appendix A.2) of the HoTT-book is one of the better ones: https://homotopytypetheory.org/book/</li>
+</ul>
+<p>Alternatives are:</p>
+<ul>
+<li><a href="https://plfa.github.io/">Programming Language Foundations in Agda</a></li>
+<li>The book “Verified Functional Programming in Agda” by Aaron Stump</li>
+<li>Type Theory and Functional Programming by Simon Thompson: <a href="https://www.cs.kent.ac.uk/people/staff/sjt/TTFP/" class="uri">https://www.cs.kent.ac.uk/people/staff/sjt/TTFP/</a></li>
+<li>Agda exercise sessions from the Formal Systems course (not used every academic year): <a href="https://github.com/anuyts/agda-sessions" class="uri">https://github.com/anuyts/agda-sessions</a></li>
+</ul>
+<h3 id="introduction-to-coq">Introduction to Coq</h3>
+<p>(Coq is very powerful but also a bit harder to learn. We usually stick to Agda.)</p>
+<ul>
+<li>https://github.com/coq/coq/wiki</li>
+<li>https://github.com/coq/coq/wiki/Other%20Coq%20Resources</li>
+</ul>
+<h3 id="homotopy-type-theory">Homotopy type theory</h3>
+<ul>
+<li>The <a href="https://homotopytypetheory.org/">HoTT-book</a> by the Univalent Foundations Program, especially chapters 1-2 and appendices A.1-3</li>
+<li>Related to h-levels (the degree of complexity of a type or topological space): HoTT book §3.1 - 3.3 and §7.1.</li>
+</ul>
+<h3 id="parametricity">Parametricity</h3>
+<ul>
+<li>The book “Types and Programming Languages” (a.k.a. TAPL) by Benjamin C. Pierce, chapters 23 and 24 and prerequisites (see the dependency graph in the book’s front matter). This book is also the lecture material of the Formal Systems course.</li>
+<li>An accessible paper about parametricity: <a href="https://people.mpi-sws.org/~dreyer/tor/papers/wadler.pdf">Wadler, 1989, Theorems for Free</a></li>
+<li>Reynolds’s original paper about parametricity (less accessible): <a href="http://www.cse.chalmers.se/edu/year/2010/course/DAT140_Types/Reynolds_typesabpara.pdf">Reynolds, 1983, Types, Abstraction and Parametric Polymorphism</a></li>
+</ul>
+<p>One random example of an application are Van Laarhoven lenses (as implemented in the Haskell library <code>Control.Lens</code>): <a href="https://hackage.haskell.org/package/lens-tutorial-1.0.4/docs/Control-Lens-Tutorial.html" class="uri">https://hackage.haskell.org/package/lens-tutorial-1.0.4/docs/Control-Lens-Tutorial.html</a></p>
+<h3 id="side-effects-and-monads">Side effects and Monads</h3>
+<p>Haskell is a purely functional programming language, meaning that functions behave as in mathematics: they have an input and an output, and the output depends on the input, and that’s it. They do not <em>do</em> anything. Side effects (the technical term for doing something after all) are modelled in Haskell using the category theoretic concept of monads. Relevant resources:</p>
+<ul>
+<li>A chapter in the aforementioned Haskell tutorial: <a href="http://learnyouahaskell.com/a-fistful-of-monads" class="uri">http://learnyouahaskell.com/a-fistful-of-monads</a></li>
+<li>Kleisli’s paper, mentioned above, is especially relevant.</li>
+<li>Voutas’s paper, mentioned above, explains monads more categorically.</li>
+</ul>
+<h3 id="universal-algebra-algebraic-theories-and-its-relevance-to-type-theory">Universal algebra, algebraic theories and its relevance to type theory</h3>
+<p>Group theory is the study of groups and is an instance of the formal concept of an “algebraic theory / Lawvere theory”.</p>
+<p>Simple/dependent type theory can be seen as the study of models of type theory and in this sense is an instance of the formal concept of a “multisorted/generalized algebraic theory”.</p>
+<p>Relevant resources:</p>
+<ul>
+<li>Gentle introduction to some prior concepts: Altenkirch, Ghani, Hancock, McBride, Morris, 2009, Indexed Containers https://www.cambridge.org/core/services/aop-cambridge-core/content/view/FB9C7DC88A65E7529D39554379D9765F/S095679681500009Xa.pdf/indexed-containers.pdf</li>
+<li>Voutas’s paper, mentioned above.</li>
+<li>I also synthesized the most important ideas (including some more advanced ones) here, though with few examples: https://anuyts.github.io/files/keml-diagrams.pdf</li>
+<li>I tried to explain the relevance to type theory in chapter 3 of my <a href="https://anuyts.github.io/files/phd.pdf">PhD thesis</a>. (In both instances, my contribution is only to describe what exists.)</li>
+<li>Altenkirch, Kaposi, 2016: Type Theory in Type Theory using Quotient Inductive Types: <a href="https://dl.acm.org/doi/abs/10.1145/2914770.2837638" class="uri">https://dl.acm.org/doi/abs/10.1145/2914770.2837638</a> (Inductive types are closely related to algebraic theories)</li>
+</ul>
+<h3 id="presheaf-models-of-type-theory">Presheaf models of type theory</h3>
+<p>(To the extent that you’re interested. Note: this subject has a tendency to turn your master thesis into a literature study.) For the concept of a model, see the resources on algebraic theories. The idea is that if we have a model of a dependently typed system in which we know that there is no semantic (semantic means: in the model) counterpart of a proof of the false proposition, then our type system must be sound as the false proposition is then known to be unprovable.</p>
+<p>The concept of presheaf models is inherently quite technical and takes time to sink in.</p>
+<p>Relevant resources:</p>
+<ul>
+<li><a href="https://www.tcs.ifi.lmu.de/mitarbeiter/martin-hofmann/pdfs/syntaxandsemanticsof-dependenttypes.pdf">Martin Hofmann, 1997, Syntax and Semantics of dependent types</a>, chapter 4</li>
+<li>In section 2.3 and chapter 4 of my <a href="https://anuyts.github.io/files/phd.pdf">PhD thesis</a>, I attempted to give an accessible introduction to presheaves and how presheaf categories constitute models of dependent type theory. Examples are provided.</li>
+</ul>
+<h3 id="communication">Communication</h3>
+<ul>
+<li>Writing readable texts
+<ul>
+<li><a href="https://www.youtube.com/watch?v=KfEVdMMY1aQ">Derek Dreyer at ICFP’21</a></li>
+<li><a href="https://www.youtube.com/watch?v=PM1Atui30qU">Derek Dreyer at ICFP’16</a></li>
+<li><a href="https://cseweb.ucsd.edu/~npolikarpova/plmw/plmw2018-curse-of-knowledge.pdf">Benjamin Pierce, The Curse of Knowledge (slides)</a></li>
+</ul></li>
+<li>Giving comprehensible talks
+<ul>
+<li><a href="https://www.youtube.com/watch?v=TCytsY8pdsc">Derek Dreyer in 2019</a></li>
+<li><a href="https://www.microsoft.com/en-us/research/academic-program/give-great-research-talk/">Simon Peyton Jones</a></li>
+</ul></li>
+<li><a href="https://people.mpi-sws.org/~dreyer/research.html">All of Derek Dreyer’s slides</a></li>
+</ul>

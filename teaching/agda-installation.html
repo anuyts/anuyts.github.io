@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<title>Agda installation</title>
+
+<h4 id="agda-installation">Agda installation</h4>
+<p>(Copied from the Toledo page of the Formal Systems course.)</p>
+<p>In order to work with Agda, it is essential that you have the Agda typechecker, the Agda mode for Emacs, and the Agda standard library installed. The easiest way to get this is to work on the computers in the lab (SOL N or SOL Z), where everything has already been installed for you (but do use the .emacs file, see below). Alternatively, you can install Agda 2.6.0.1 and the Agda standard library v1.1 on your own machine:</p>
+<ul>
+<li>On Ubuntu 20.04 and derived systems, you can install all necessary material by opening a terminal and entering <code>sudo apt-get install agda agda-mode agda-stdlib</code>. You can verify your installation by opening a document Test.agda containing the line “module Test where” in Emacs (GUI) and pressing Ctrl+c Ctrl+l in sequence. You should get syntax coloring.</li>
+<li>On other versions of Ubuntu, this may give you a different version of Agda and the standard library, see <a href="https://packages.ubuntu.com/search?keywords=agda&amp;searchon=names&amp;suite=all&amp;section=all">here</a>.</li>
+<li>On other Linux systems, you may also be able to install everything from your package manager. Otherwise, you may be able to install Agda by following the installation instructions <a href="https://agda.readthedocs.io/en/v2.6.2/getting-started/installation.html">here</a>. (Installation using stack has a lower probability of trouble than using cabal.)</li>
+<li>Unfortunately, support for Agda on Mac and Windows isn’t as good as for Linux. You can try installing Agda from source using the instructions above, but that means you’re on your own. We recommend working on the computers in the lab instead. More information on the student labs is available <a href="https://system.cs.kuleuven.be/cs/system/wegwijs/computerklas/index-E.shtml">here</a>.</li>
+<li>The standard library (v1.1) can be downloaded <a href="https://github.com/agda/agda-stdlib/tree/v1.1">here</a>. You can either try to install it using the instructions found <a href="http://wiki.portal.chalmers.se/agda/pmwiki.php?n=Libraries.StandardLibrary">here</a>, or go for the quick-and-dirty approach and put the contents of the src folder in the same folder where your course project lives. (Please do not submit the entire standard library with your course project.) Note: Agda is neither forwards- nor backwards compatible, so if you use a different version of Agda, you will likely need a different version of the standard library</li>
+</ul>
+<p>In any case, the code you deliver should be accepted by Agda version 2.6.0.1 using version 1.1 of the standard library (as installed in SOL N and SOL Z of the department), so you should make sure you’re working with that version. You can check your Agda version by opening a terminal and entering “agda -V”. Differences between versions of Agda and of the Agda standard library are not enormous, so it is feasible to work in a different version and use a computer at the department to make sure that everything type-checks with the aforementioned versions, after finishing your project. (Contact us in case this turns out to be not so easy.)</p>
+<p>It is also recommended to use the emacs configuration file provided <a href="github.com/anuyts/agda-sessions">here</a>. To do so, simply place the file .emacs in your home folder. (Note that you should call it “.emacs”, not “emacs”, but the uploading software didn’t like that idea.) You also have to do this if you are working on the computers in the lab! If you already have a .emacs file, you can edit it and add the contents of our .emacs file at the bottom.</p>
+<p>Final note: the emacs extension <a href="https://github.com/Fanael/rainbow-delimiters">rainbow-delimiters</a> is very recommendable when programming in Agda, Haskell, Lisp or another delimiter-intensive language. (But it seems to have become incompatible with the Agda interaction mode for emacs.)</p>
