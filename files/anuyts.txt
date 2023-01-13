@@ -72,7 +72,8 @@
   title = {Menkar: Towards a Multimode Presheaf Proof Assistant},
   booktitle = {TYPES},
   author = {Nuyts, Andreas and Devriese, Dominique},
-  year = {2019}
+  year = {2019},
+  url = {https://anuyts.github.io/files/menkar-types19.pdf},
 }
 
 @inproceedings{paramdtt-types,
@@ -96,7 +97,8 @@
   title = {Dependable Atomicity in Type Theory},
   booktitle = {TYPES},
   author = {Nuyts, Andreas and Devriese, Dominique},
-  year = {2019}
+  year = {2019},
+  url = {https://anuyts.github.io/files/transpension-types19.pdf},
 }
 
 @inproceedings{reldtt,
@@ -182,14 +184,14 @@
 booktitle = {Coalgebraic Methods in Computer Science (CMCS)},
 year = {2020},
 title = {A categorical approach to secure compilation},
-author = {Tsampas, Stylianos and Nuyts, Andreas and Devriese, Dominique and Piessens, Frank},
+author = {Tsampas, Stelios and Nuyts, Andreas and Devriese, Dominique and Piessens, Frank},
 }
 
 @inproceedings{stelios-act,
 booktitle = {Applied Category Theory (ACT)},
 year = {2019},
 title = {Categorical Contextual Reasoning},
-author = {Tsampas, Stylianos and Nuyts, Andreas and Devriese, Dominique and Piessens, Frank},
+author = {Tsampas, Stelios and Nuyts, Andreas and Devriese, Dominique and Piessens, Frank},
 }
 
 @inproceedings{joris-tyde,
@@ -234,4 +236,83 @@ url = {http://tydeworkshop.org/2019-abstracts/paper11.pdf},
     year = {2020},
     howpublished = {Unpublished note},
     url = {https://anuyts.github.io/files/nattt-vision.pdf},
+}
+
+@inproceedings{abstract-cmat,
+  title = {Contextual Algebraic Theories: Generic Boilerplate beyond Abstraction (Extended Abstract)},
+  booktitle = {Workshop on Type-Driven Development (TyDe)},
+  url = {https://anuyts.github.io/files/cmat-tyde22-abstract.pdf},
+  author = {Nuyts, Andreas},
+  month = {9},
+  year = {2022},
+}
+
+@inproceedings{abstract-sikkel,
+  title = {Sikkel: Multimode Simple Type Theory as an Agda Library},
+  booktitle = {28th International Conference on Types for Proofs and Programs (TYPES)},
+  author = {Ceulemans, Joris and Nuyts, Andreas and Devriese, Dominique},
+  year = {2022},
+  month = {6},
+  url = {https://types22.inria.fr/files/2022/06/TYPES_2022_paper_34.pdf},
+}
+
+@inproceedings{abstract-agda-bridges,
+  title = {Extending Cubical Agda with Internal Parametricity},
+  booktitle = {28th International Conference on Types for Proofs and Programs (TYPES)},
+  author = {Van Muylder, Antoine and Vezzosi, Andrea and Nuyts, Andreas and Devriese, Dominique},
+  year = {2022},
+  month = {6},
+  url = {https://types22.inria.fr/files/2022/06/TYPES_2022_paper_10.pdf},
+}
+
+@inproceedings{abstract-transp,
+  title = {Transpension: The Right Adjoint to the Pi-Type},
+  booktitle = {28th International Conference on Types for Proofs and Programs (TYPES)},
+  author = {Nuyts, Andreas and Devriese, Dominique},
+  year = {2022},
+  month = {6},
+  url = {https://types22.inria.fr/files/2022/06/TYPES_2022_paper_39.pdf},
+}
+
+@inproceedings{sikkel,
+  author    = {Joris Ceulemans and
+               Andreas Nuyts and
+               Dominique Devriese},
+  editor    = {Jeremy Gibbons and
+               Max S. New},
+  title     = {Sikkel: Multimode Simple Type Theory as an Agda Library},
+  booktitle = {Proceedings Ninth Workshop on Mathematically Structured Functional
+               Programming, MSFP@ETAPS 2022, Munich, Germany, 2nd April 2022},
+  series    = {{EPTCS}},
+  volume    = {360},
+  pages     = {93--112},
+  year      = {2022},
+  url       = {https://doi.org/10.4204/EPTCS.360.5},
+  doi       = {10.4204/EPTCS.360.5},
+  timestamp = {Sun, 02 Oct 2022 15:32:48 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2207-00843.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{stelios-bisim,
+  author    = {Stelios Tsampas and
+               Christian Williams and
+               Andreas Nuyts and
+               Dominique Devriese and
+               Frank Piessens},
+  editor    = {Filippo Bonchi and
+               Simon J. Puglisi},
+  title     = {Abstract Congruence Criteria for Weak Bisimilarity},
+  booktitle = {46th International Symposium on Mathematical Foundations of Computer
+               Science, {MFCS} 2021, August 23-27, 2021, Tallinn, Estonia},
+  series    = {LIPIcs},
+  volume    = {202},
+  pages     = {88:1--88:23},
+  publisher = {Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik},
+  year      = {2021},
+  url       = {https://doi.org/10.4230/LIPIcs.MFCS.2021.88},
+  doi       = {10.4230/LIPIcs.MFCS.2021.88},
+  timestamp = {Mon, 03 Jan 2022 22:38:01 +0100},
+  biburl    = {https://dblp.org/rec/conf/mfcs/0001WNDP21.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
