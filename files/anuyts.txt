@@ -227,7 +227,7 @@ url = {http://tydeworkshop.org/2019-abstracts/paper11.pdf},
   school	= {KU Leuven},
   address	= {Belgium},
   title		= {Contributions to Multimode and Presheaf Type Theory},
-  url		= {https://anuyts.github.io/files/phd.pdf},
+  url		= {https://lirias.kuleuven.be/3065223},
 }
 
 @misc{nattt-vision,
