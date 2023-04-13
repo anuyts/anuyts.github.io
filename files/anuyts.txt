@@ -316,3 +316,19 @@ url = {http://tydeworkshop.org/2019-abstracts/paper11.pdf},
   biburl    = {https://dblp.org/rec/conf/mfcs/0001WNDP21.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
+
+@inproceedings{abstract-natpt,
+  title = {Higher Pro-arrows: {{Towards}} a Model for Naturality Pretype Theory},
+  booktitle = {Workshop on {{Homotopy Type Theory}} / {{Univalent Foundations}}},
+  url = {https://hott-uf.github.io/2023/HoTTUF_2023_paper_1410.pdf},
+  author = {Nuyts, Andreas},
+  year = {2023}
+}
+
+@inproceedings{mtt-copsh-wg6,
+  title = {Every modality is a relative right adjointPermalink},
+  booktitle = {EuroProofNet Work Group 6 Meeting},
+  url = {https://europroofnet.github.io/wg6-vienna/programme/#nuyts},
+  author = {Nuyts, Andreas and Poiret, Josselin},
+  year = {2023}
+}
