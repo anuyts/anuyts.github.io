@@ -332,3 +332,11 @@ url = {http://tydeworkshop.org/2019-abstracts/paper11.pdf},
   author = {Nuyts, Andreas and Poiret, Josselin},
   year = {2023}
 }
+
+@misc{keml-diagrams,
+    author = {Andreas Nuyts},
+    title = {Understanding Universal Algebra Using {{Kleisli}}-{{Eilenberg}}-{{Moore}}-{{Lawvere}} Diagrams},
+    year = {2022},
+    howpublished = {Unpublished note},
+    url = {https://anuyts.github.io/files/keml-diagrams.pdf},
+}
