@@ -37,9 +37,15 @@
   <li> About Me
   <li> My Research and Publications
   <ol>
+    <li> <a href="#new">What's New</a>
     <li> <a href="#posts">Posts</a>
     <li> <a href="#syntax">Syntax of Type Theory</a>
     <li> <a href="#pshmtt">Multimode and Presheaf Type Theory</a>
+    <ol>
+      <li> <a href="#pshmtt-general">General Multimode and Presheaf Type Theory</a>
+      <li> <a href="#pshmtt-dir">Directed and Naturality Type Theory</a>
+      <li> <a href="#pshmtt-param">Parametricity and Degrees of Relatedness</a>
+    </ol>
     <li> <a href="#effects">Effects in Dependent Type Theory</a>
     <li> <a href="#catsec">Categorical Secure Compilation</a>
   </ol>
@@ -69,6 +75,16 @@ I find it especially motivating to hear from people who are interested in (using
 
 <!-- 📑📋📄📕📝📒🔒🔐🔑💻📺➡️🕰🪶🔗 -->
   
+<h3 id="new">What's New</h3>
+<ul>
+  <li> May 2023: 📝 New version of <a href="#transp">transpension</a> paper and technical report
+  <li> May 2023: 📋 <a href="#relyoneda">Lax-Idempotent 2-Monads, Degrees of Relatedness, and Multilevel Type Theory</a> (TYPES 2023)
+  <li> May 2023: 📋 <a href="#mtt-lc">A Lock Calculus for Multimode Type Theory</a> (TYPES 2023)
+  <li> May 2023: 📋 <a href="#agda-polarities">Read the <s>Mood</s> Mode and Stay Positive</a> (TYPES 2023)
+  <li> Apr 2023: 📋 <a href="#mtt-copsh">Every Modality is a Relative Right Adjoint</a> (EPN WG6, 2023)
+  <li> Apr 2023: 📋 <a href="#nattt-vision">Higher Pro-arrows: Towards a Model for Naturality Pretype Theory</a> (HoTT/UF 2023)
+</ul>
+  
 <h3 id="posts">Posts</h3>
 
   <ul>
@@ -96,6 +112,8 @@ I find it especially motivating to hear from people who are interested in (using
   </p>
   
 <h3 id="pshmtt">Multimode and Presheaf Type Theory</h3>
+      
+<h4 id="pshmtt-general">General Multimode and Presheaf Type Theory</h4>
   
   <p id="transp">
   📝 <strong>Transpension: The Right Adjoint to the Pi-type</strong> ('20-'23, Submitted to LMCS) <br/>
@@ -119,37 +137,9 @@ I find it especially motivating to hear from people who are interested in (using
   </ul>
   </p>
 
-  <p id="relyoneda">
-  📋 <strong>Lax-Idempotent 2-Monads, Degrees of Relatedness, and Multilevel Type Theory</strong> (TYPES '23):<br/>
-  🔗 <a href="files/2023/relyoneda-types.pdf">Abstract</a>
-  </p>
-
   <p id="mtt-lc">
   📋 <strong>A Lock Calculus for Multimode Type Theory</strong> (TYPES '23):
   <a href="files/2023/mtt-lc-types.pdf">Abstract</a>
-  </p>
-  
-  <p id="agda-polarities">
-  📋 <strong>Read the <s>Mood</s> Mode and Stay Positive</strong> (TYPES '23) (Polarity modalities in Agda) <br/>
-  👥 With <a href="https://jpoiret.xyz/">Josselin Poiret</a>, <a href="https://lucas.escot.me/">Lucas Escot</a>, Joris Ceulemans and Malin Altenmüller. <br/>
-  🔗 <a href="https://jpoiret.xyz/types-2023.pdf">Abstract</a>
-  -
-  <a href="https://github.com/agda/agda/pull/6385">Pull request</a>
-  <ul>
-    <li> 📜 Proposal: Multimode Agda (AIM Nov '22): <a href="https://github.com/anuyts/public/blob/main/agda/modal.md">Note</a>
-  </ul>
-  </p>
-
-  <p id="nattt-vision">
-  📋 <strong>Higher Pro-arrows: Towards a Model for Naturality Pretype Theory</strong> (HoTT/UF '23)<br/>
-  🔗 <a href="files/2023/natpt-hott-uf.pdf">Abstract</a> - <a href="files/2023/natpt-hott-uf-pres.pdf">Slides</a><span style="color:red">*</span>
-  <ul>
-    <li> 📜 A Vision for Natural Type Theory (2020): <a href="files/nattt-vision.pdf">Note</a>
-      <ul>
-        <li> Part I. Grothendieck Construction Considered Harmful
-        <li> Part II. Jets: Higher Equipments or Directed Degrees of Relatedness
-      </ul>
-  </ul>
   </p>
   
   <p id="mtt-copsh">
@@ -177,14 +167,6 @@ I find it especially motivating to hear from people who are interested in (using
       -
       <a href="https://types22.inria.fr/files/2022/06/TYPES_2022_slides_34.pdf">Slides</a><span style="color:red">*</span>
   </ul>
-  </p>
-  
-  <p id="bridges">
-  📋 <strong>Extending Cubical Agda with Internal Parametricity</strong> (TYPES '22)<br/>
-  👥 By <a href="https://antoinevanmuylder.github.io/">Antoine Van Muylder</a>, <a href="https://saizan.github.io/">Andrea Vezzosi</a>, Andreas Nuyts, <a href="https://distrinet.cs.kuleuven.be/people/DominiqueDevriese">Dominique Devriese</a><br/>
-  🔗 <a href="https://types22.inria.fr/files/2022/06/TYPES_2022_paper_10.pdf">Abstract</a>
-    -
-    <a href="https://types22.inria.fr/files/2022/06/TYPES_2022_slides_10.pdf">Slides</a><span style="color:red">*</span>
   </p>
 
   <p id="phd">
@@ -275,6 +257,57 @@ I find it especially motivating to hear from people who are interested in (using
       <a href="files/pres-menkar-types19.pdf">Slides</a><span style="color:red">*</span>
       (TYPES '19)
   </ul>
+  
+<h4 id="pshmtt-dir">Directed and Naturality Type Theory</h4>
+  
+  <p id="agda-polarities">
+  📋 <strong>Read the <s>Mood</s> Mode and Stay Positive</strong> (TYPES '23) (Polarity modalities in Agda) <br/>
+  👥 With <a href="https://jpoiret.xyz/">Josselin Poiret</a>, <a href="https://lucas.escot.me/">Lucas Escot</a>, Joris Ceulemans and Malin Altenmüller. <br/>
+  🔗 <a href="https://jpoiret.xyz/types-2023.pdf">Abstract</a>
+  -
+  <a href="https://github.com/agda/agda/pull/6385">Pull request</a>
+  <ul>
+    <li> 📜 Proposal: Multimode Agda (AIM Nov '22): <a href="https://github.com/anuyts/public/blob/main/agda/modal.md">Note</a>
+  </ul>
+  </p>
+
+  <p id="nattt-vision">
+  📋 <strong>Higher Pro-arrows: Towards a Model for Naturality Pretype Theory</strong> (HoTT/UF '23)<br/>
+  🔗 <a href="files/2023/natpt-hott-uf.pdf">Abstract</a> - <a href="files/2023/natpt-hott-uf-pres.pdf">Slides</a><span style="color:red">*</span>
+  <ul>
+    <li> 📜 A Vision for Natural Type Theory (2020): <a href="files/nattt-vision.pdf">Note</a>
+      <ul>
+        <li> Part I. Grothendieck Construction Considered Harmful
+        <li> Part II. Jets: Higher Equipments or Directed Degrees of Relatedness
+      </ul>
+  </ul>
+  </p>
+
+  📗 <strong>Towards a Directed Homotopy Type Theory based on 4 Kinds of Variance</strong> (Master thesis, 2015)<br/>
+  👥 Supervisors:
+    <a href="https://distrinet.cs.kuleuven.be/people/DominiqueDevriese">Dominique Devriese</a>,
+    <a href="https://distrinet.cs.kuleuven.be/people/frank">Frank Piessens</a>, <br/>
+  👥 Mentor:
+    <a href="https://jesper.cx/">Jesper Cockx</a>, <br/>
+  🔗 <a href="files/mathesis.pdf">Thesis</a>
+      -
+      <a href="files/mathesis-errata.pdf">Errata</a><br/>
+  This thesis investigates higher directed type theory from a syntactic point of view. The approach is very non-formal, departing not from the question "What can we justify semantically?" but "What syntax rules can we intuitively expect?" Consider it an inventory of non-formal ideas.
+
+<h4 id="pshmtt-param">Parametricity and Degrees of Relatedness</h4>
+
+  <p id="relyoneda">
+  📋 <strong>Lax-Idempotent 2-Monads, Degrees of Relatedness, and Multilevel Type Theory</strong> (TYPES '23):<br/>
+  🔗 <a href="files/2023/relyoneda-types.pdf">Abstract</a>
+  </p>
+  
+  <p id="bridges">
+  📋 <strong>Extending Cubical Agda with Internal Parametricity</strong> (TYPES '22)<br/>
+  👥 By <a href="https://antoinevanmuylder.github.io/">Antoine Van Muylder</a>, <a href="https://saizan.github.io/">Andrea Vezzosi</a>, Andreas Nuyts, <a href="https://distrinet.cs.kuleuven.be/people/DominiqueDevriese">Dominique Devriese</a><br/>
+  🔗 <a href="https://types22.inria.fr/files/2022/06/TYPES_2022_paper_10.pdf">Abstract</a>
+    -
+    <a href="https://types22.inria.fr/files/2022/06/TYPES_2022_slides_10.pdf">Slides</a><span style="color:red">*</span>
+  </p>
 
   📄 <strong>Degrees of Relatedness</strong> (LICS '18)<br/>
   👥 With <a href="https://distrinet.cs.kuleuven.be/people/DominiqueDevriese">Dominique Devriese</a>.<br/>
@@ -320,17 +353,6 @@ I find it especially motivating to hear from people who are interested in (using
       👥 By Joris Ceulemans, Andreas Nuyts, Dominique Devriese
     </p>
   </ul>
-
-  📗 <strong>Towards a Directed Homotopy Type Theory based on 4 Kinds of Variance</strong> (Master thesis, 2015)<br/>
-  👥 Supervisors:
-    <a href="https://distrinet.cs.kuleuven.be/people/DominiqueDevriese">Dominique Devriese</a>,
-    <a href="https://distrinet.cs.kuleuven.be/people/frank">Frank Piessens</a>, <br/>
-  👥 Mentor:
-    <a href="https://jesper.cx/">Jesper Cockx</a>, <br/>
-  🔗 <a href="files/mathesis.pdf">Thesis</a>
-      -
-      <a href="files/mathesis-errata.pdf">Errata</a><br/>
-  This thesis investigates higher directed type theory from a syntactic point of view. The approach is very non-formal, departing not from the question "What can we justify semantically?" but "What syntax rules can we intuitively expect?" Consider it an inventory of non-formal ideas.
   
 <h3 id="effects">Effects in Dependent Type Theory</h3>
 

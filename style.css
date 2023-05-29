@@ -34,6 +34,15 @@ h3:before {
   content: counter(subsubsection) ". ";
 }
 
+h3 {
+  counter-reset: paragraph;
+}
+
+h4:before {
+  counter-increment: paragraph;
+  content: counter(subsubsection) "." counter(paragraph) ". ";
+}
+
 /* unvisited link */
 a:link {
   color: darkred;
