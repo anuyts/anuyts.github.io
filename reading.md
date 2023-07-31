@@ -9,6 +9,7 @@ This is a list of reading materials that I would recommend for any or all of the
 ### General
 
 * The [nLab](https://ncatlab.org) is a kind of Wikipedia for type theory and category theory. The accessibility of its articles varies wildly, but in any case it's always a good place to start looking for literature pointers.
+* When you've found an interesting paper, its bibliography is a good place to look for related *older* papers. Using Google Scholar or the publisher's websites, you can also get a list of *newer* papers citing the current one, thus browsing the citation graph in reverse direction.
 
 ### Introduction to Category Theory
 
@@ -117,3 +118,11 @@ Relevant resources:
    * [Derek Dreyer in 2019](https://www.youtube.com/watch?v=TCytsY8pdsc)
    * [Simon Peyton Jones](https://www.microsoft.com/en-us/research/academic-program/give-great-research-talk/)
 * [All of Derek Dreyer's slides](https://people.mpi-sws.org/~dreyer/research.html)
+
+#### Citing
+
+Good frameworks to typeset your bibliography (assuming you're using LaTeX) are bibTeX and biber. Both use the same reference file format `.bib`.
+
+From [DBLP](dblp.uni-trier.de) you can obtain excellent bibTeX (and other) citation records. Citation records obtained from Google Scholar are often sloppy and need to be manually adjusted where information is missing, wrong, or garbled.
+
+In the 21st century, please make sure that every bibliography entry contains a clickable URL (unless a somewhat permanent-looking link affiliated to either the publisher or one of the authors or their institutions is hard to find).
