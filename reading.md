@@ -38,6 +38,7 @@ This is a list of reading materials that I would recommend for any or all of the
 ### Introduction to Dependent Type Theory and Agda
 
 - I still think chapter 1 (and appendix A.2) of the HoTT-book is one of the better ones: https://homotopytypetheory.org/book/
+- I did my best to write good lecture notes for the Formal Systems course: https://github.com/anuyts/teaching-tt
 
 Alternatives are:
 
