@@ -128,6 +128,28 @@ From [DBLP](dblp.uni-trier.de) you can obtain excellent bibTeX (and other) citat
 
 In the 21st century, please make sure that every bibliography entry contains a clickable URL (unless a somewhat permanent-looking link affiliated to either the publisher or one of the authors or their institutions is hard to find).
 
+### Community
+
+If you are interested in ongoing research discussions or even job opportunities in the research communities related to our work, the following communication channels may be of interest:
+
+Mailing lists:
+
+* agda: https://lists.chalmers.se/mailman/listinfo/agda
+* EUtypes: https://mailman.science.ru.nl/mailman/listinfo/eutypes
+* [EuroProofNet](https://europroofnet.github.io/): I think you need to apply via the EU COST system but they definitely intend to be very open. Ask around (e.g. ask me) if you get stuck.
+* HoTT: see https://homotopytypetheory.org/links/
+* types @ Chalmers: https://lists.chalmers.se/mailman/listinfo/types
+* types @ UPenn: http://lists.seas.upenn.edu/mailman/listinfo/types-list
+* types-announce: http://lists.seas.upenn.edu/mailman/listinfo/types-announce
+
+Zulip chats:
+
+* <https://agda.zulipchat.com>
+* <https://categorytheory.zulipchat.com>
+* <https://epn.zulipchat.com> (EuroProofNet)
+* <https://typ.zulipchat.com>
+* <https://hott.zulipchat.com>
+
 -----
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).
