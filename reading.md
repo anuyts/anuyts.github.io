@@ -37,8 +37,8 @@ This is a list of reading materials that I would recommend for any or all of the
 
 ### Introduction to Dependent Type Theory and Agda
 
-- I still think chapter 1 (and appendix A.2) of the HoTT-book is one of the better ones: https://homotopytypetheory.org/book/
-- I did my best to write good lecture notes for the Formal Systems course: https://github.com/anuyts/teaching-tt
+- I still think chapter 1 (and appendix A.2) of the HoTT-book is one of the better ones: <https://homotopytypetheory.org/book/>
+- I did my best to write good lecture notes for the Formal Systems course: <https://github.com/anuyts/teaching-tt>
 
 Alternatives are:
 
@@ -51,8 +51,8 @@ Alternatives are:
 
 (Coq is very powerful but also a bit harder to learn. We usually stick to Agda.)
 
-* https://github.com/coq/coq/wiki
-* https://github.com/coq/coq/wiki/Other%20Coq%20Resources
+* <https://github.com/coq/coq/wiki>
+* <https://github.com/coq/coq/wiki/Other%20Coq%20Resources>
 
 ### Homotopy type theory
 
@@ -88,9 +88,9 @@ Relevant resources:
 
 * Gentle introduction to some prior concepts:
   Altenkirch, Ghani, Hancock, McBride, Morris, 2009, Indexed Containers
-  https://www.cambridge.org/core/services/aop-cambridge-core/content/view/FB9C7DC88A65E7529D39554379D9765F/S095679681500009Xa.pdf/indexed-containers.pdf
+  <https://www.cambridge.org/core/services/aop-cambridge-core/content/view/FB9C7DC88A65E7529D39554379D9765F/S095679681500009Xa.pdf/indexed-containers.pdf>
 * Voutas's paper, mentioned above.
-* I also synthesized the most important ideas (including some more advanced ones) here, though with few examples: https://anuyts.github.io/files/keml-diagrams.pdf
+* I also synthesized the most important ideas (including some more advanced ones) here, though with few examples: <https://anuyts.github.io/files/keml-diagrams.pdf>
 * I tried to explain the relevance to type theory in chapter 3 of my [PhD thesis](https://anuyts.github.io/files/phd.pdf).
   (In both instances, my contribution is only to describe what exists.)
 * Altenkirch, Kaposi, 2016: Type Theory in Type Theory using Quotient Inductive Types:
@@ -135,13 +135,14 @@ If you are interested in ongoing research discussions or even job opportunities 
 
 Mailing lists:
 
-* agda: https://lists.chalmers.se/mailman/listinfo/agda
-* EUtypes: https://mailman.science.ru.nl/mailman/listinfo/eutypes
+* agda: <https://lists.chalmers.se/mailman/listinfo/agda>
+* Dutch categories and types seminar: <https://dutchcats.github.io/>
+* EUtypes: <https://mailman.science.ru.nl/mailman/listinfo/eutypes>
 * [EuroProofNet](https://europroofnet.github.io/): I think you need to apply via the EU COST system but they definitely intend to be very open. Ask around (e.g. ask me) if you get stuck.
-* HoTT: see https://homotopytypetheory.org/links/
-* types @ Chalmers: https://lists.chalmers.se/mailman/listinfo/types
-* types @ UPenn: http://lists.seas.upenn.edu/mailman/listinfo/types-list
-* types-announce: http://lists.seas.upenn.edu/mailman/listinfo/types-announce
+* HoTT: see <https://homotopytypetheory.org/links/>
+* types @ Chalmers: <https://lists.chalmers.se/mailman/listinfo/types>
+* types @ UPenn: <http://lists.seas.upenn.edu/mailman/listinfo/types-list>
+* types-announce: <http://lists.seas.upenn.edu/mailman/listinfo/types-announce>
 
 Zulip chats:
 
