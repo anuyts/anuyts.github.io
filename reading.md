@@ -119,6 +119,9 @@ Relevant resources:
 * Giving comprehensible talks
    * [Derek Dreyer in 2019](https://www.youtube.com/watch?v=TCytsY8pdsc)
    * [Simon Peyton Jones](https://www.microsoft.com/en-us/research/academic-program/give-great-research-talk/)
+   * Information on inclusivity w.r.t. [color blind](https://en.wikipedia.org/wiki/Color_blindness) people that I found helpful:
+     * [The best charts for color blind viewers](https://www.datylon.com/blog/data-visualization-for-colorblind-readers)
+     * [Color blindness simulator](https://www.color-blindness.com/coblis-color-blindness-simulator/)
 * [All of Derek Dreyer's slides](https://people.mpi-sws.org/~dreyer/research.html)
 
 #### Citing
