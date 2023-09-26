@@ -340,3 +340,30 @@ url = {http://tydeworkshop.org/2019-abstracts/paper11.pdf},
     howpublished = {Unpublished note},
     url = {https://anuyts.github.io/files/keml-diagrams.pdf},
 }
+
+@inproceedings{abstract-relyoneda,
+  title = {Lax-Idempotent 2-Monads, Degrees of Relatedness, and Multilevel Type Theory},
+  booktitle = {29th International Conference on Types for Proofs and Programs (TYPES)},
+  author = {Nuyts, Andreas},
+  year = {2023},
+  month = {6},
+  url = {https://lirias.kuleuven.be/retrieve/720871},
+}
+
+@inproceedings{abstract-mtt-lc,
+  title = {A Lock Calculus for Multimode Type Theory},
+  booktitle = {29th International Conference on Types for Proofs and Programs (TYPES)},
+  author = {Nuyts, Andreas},
+  year = {2023},
+  month = {6},
+  url = {https://lirias.kuleuven.be/retrieve/720873},
+}
+
+@inproceedings{abstract-agda-polarities,
+  title = {Read the Mode and Stay Positive},
+  booktitle = {29th International Conference on Types for Proofs and Programs (TYPES)},
+  author = {Poiret, Josselin and Escot, Lucas and Ceulemans, Joris and Altenmüller, Malin and Nuyts, Andreas},
+  year = {2023},
+  month = {6},
+  url = {https://lirias.kuleuven.be/retrieve/720869},
+}
