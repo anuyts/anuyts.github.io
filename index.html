@@ -63,7 +63,7 @@ Most of my research is about dependent type theory.
 There, I am interested in the theory and implementation of <a href="#pshmtt">modal and presheaf type theory</a> (particularly directed type theory),
 a quest which also led me to an interest in <a href="#syntax">general syntactic aspects of type theory</a>.
 I am also fascinated by the question of how to reason about <a href="#effects">side-effects</a> in dependent type theory.
-Furthermore, I have been involved in a line of research, headed by Stelios Tsampas, on <a href="#catsec">categorifying secure compilation</a>.
+Furthermore, I have been involved in a line of research, headed by <a href="https://www8.cs.fau.de/people/stelios/">Stelios Tsampas</a>, on <a href="#catsec">categorifying secure compilation</a>.
 </p>
 <p>
 I find it especially motivating to hear from people who are interested in (using) my work, so do not hesitate to contact me in case of questions, remarks or puzzlement about any of my papers, notes or code.
@@ -77,6 +77,7 @@ I find it especially motivating to hear from people who are interested in (using
   
 <h3 id="new">What's New</h3>
 <ul>
+  <li> Nov 2023: 📄 <a href="#bridgy">Internal and Observational Parametricity for Cubical Agda</a> (POPL 2024)
   <li> Oct 2023: 🌱 First chapter of a technical report on <a href="#natpt">Naturality Pretype Theory</a>
   <li> May 2023: 📝 New version of <a href="#transp">transpension</a> paper and technical report
   <li> May 2023: 📋 <a href="#relyoneda">Lax-Idempotent 2-Monads, Degrees of Relatedness, and Multilevel Type Theory</a> (TYPES 2023)
@@ -158,7 +159,7 @@ I find it especially motivating to hear from people who are interested in (using
 
   <p id="sikkel">
   📄 <strong>Sikkel: Multimode Simple Type Theory as an Agda Library</strong> (MSFP 2022)<br/>
-  👥 By Joris Ceulemans, Andreas Nuyts, <a href="https://distrinet.cs.kuleuven.be/people/DominiqueDevriese">Dominique Devriese</a><br/>
+  👥 By <a href="https://distrinet.cs.kuleuven.be/people/JorisCeulemans">Joris Ceulemans</a>, Andreas Nuyts, <a href="https://distrinet.cs.kuleuven.be/people/DominiqueDevriese">Dominique Devriese</a><br/>
   🔗 <a href="http://dx.doi.org/10.4204/EPTCS.360.5">DOI</a>
       -
       <a href="https://github.com/JorisCeulemans/sikkel">Github</a>
@@ -267,7 +268,7 @@ I find it especially motivating to hear from people who are interested in (using
   
   <p id="agda-polarities">
   📋 <strong>Read the <s>Mood</s> Mode and Stay Positive</strong> (TYPES '23) (Polarity modalities in Agda) <br/>
-  👥 With <a href="https://jpoiret.xyz/">Josselin Poiret</a>, <a href="https://lucas.escot.me/">Lucas Escot</a>, Joris Ceulemans and Malin Altenmüller. <br/>
+  👥 With <a href="https://jpoiret.xyz/">Josselin Poiret</a>, <a href="https://lucas.escot.me/">Lucas Escot</a>, <a href="https://distrinet.cs.kuleuven.be/people/JorisCeulemans">Joris Ceulemans</a> and Malin Altenmüller. <br/>
   🔗 <a href="https://jpoiret.xyz/types-2023.pdf">Abstract</a>
   -
   <a href="https://media.upv.es/#/portal/video/8d687450-35c0-11ee-8485-f133f82f8945">Video</a>
@@ -305,6 +306,19 @@ I find it especially motivating to hear from people who are interested in (using
   This thesis investigates higher directed type theory from a syntactic point of view. The approach is very non-formal, departing not from the question "What can we justify semantically?" but "What syntax rules can we intuitively expect?" Consider it an inventory of non-formal ideas.
 
 <h4 id="pshmtt-param">Parametricity and Degrees of Relatedness</h4>
+  
+  <p id="bridgy">
+  📄 <strong>Internal and Observational Parametricity for Cubical Agda</strong> (POPL '24)<br/>
+  👥 By <a href="https://antoinevanmuylder.github.io/">Antoine Van Muylder</a>, Andreas Nuyts, <a href="https://distrinet.cs.kuleuven.be/people/DominiqueDevriese">Dominique Devriese</a><br/>
+  🔗 Paper (<a href="files/2024/bridgy-popl.pdf">Local copy</a> - <a href="https://doi.org/10.1145/3632850">DOI</a>)
+  <ul>
+    <li> 📋 Extending Cubical Agda with Internal Parametricity (TYPES '22):
+      <a href="https://types22.inria.fr/files/2022/06/TYPES_2022_paper_10.pdf">Abstract</a>
+      -
+      <a href="https://types22.inria.fr/files/2022/06/TYPES_2022_slides_10.pdf">Slides</a><span style="color:red">*</span><br/>
+      👥 By <a href="https://antoinevanmuylder.github.io/">Antoine Van Muylder</a>, <a href="https://saizan.github.io/">Andrea Vezzosi</a>, Andreas Nuyts, <a href="https://distrinet.cs.kuleuven.be/people/DominiqueDevriese">Dominique Devriese</a>
+  </ul>
+  </p>
 
   <p id="relyoneda">
   📋 <strong>Lax-Idempotent 2-Monads, Degrees of Relatedness, and Multilevel Type Theory</strong> (TYPES '23):<br/>
@@ -315,14 +329,6 @@ I find it especially motivating to hear from people who are interested in (using
     <a href="https://media.upv.es/#/portal/video/f3469340-3036-11ee-a9f5-bbc321eedb63">Video</a>
     <br/>
   🤦 Erratum: Both abstract and slides mentioned semisimplicial sets where I meant augmented simplicial sets.
-  </p>
-  
-  <p id="bridges">
-  📋 <strong>Extending Cubical Agda with Internal Parametricity</strong> (TYPES '22)<br/>
-  👥 By <a href="https://antoinevanmuylder.github.io/">Antoine Van Muylder</a>, <a href="https://saizan.github.io/">Andrea Vezzosi</a>, Andreas Nuyts, <a href="https://distrinet.cs.kuleuven.be/people/DominiqueDevriese">Dominique Devriese</a><br/>
-  🔗 <a href="https://types22.inria.fr/files/2022/06/TYPES_2022_paper_10.pdf">Abstract</a>
-    -
-    <a href="https://types22.inria.fr/files/2022/06/TYPES_2022_slides_10.pdf">Slides</a><span style="color:red">*</span>
   </p>
 
   📄 <strong>Degrees of Relatedness</strong> (LICS '18)<br/>
@@ -365,14 +371,14 @@ I find it especially motivating to hear from people who are interested in (using
     <li> 📖 Put in a more contemporary (2020) perspective in (but not superseded by) ch. 9 of my <a href="#phd">PhD thesis</a>.
     <li> <p>
       📋 Application: <strong>Reasoning about Effect Parametricity using Dependent Types</strong> (TyDe '19): <a href="http://tydeworkshop.org/2019-abstracts/paper11.pdf">Extended abstract</a><br/>
-      👥 By Joris Ceulemans, Andreas Nuyts, <a href="https://distrinet.cs.kuleuven.be/people/DominiqueDevriese">Dominique Devriese</a>
+      👥 By <a href="https://distrinet.cs.kuleuven.be/people/JorisCeulemans">Joris Ceulemans</a>, Andreas Nuyts, <a href="https://distrinet.cs.kuleuven.be/people/DominiqueDevriese">Dominique Devriese</a>
       <ul>
         <li> 📗 <strong>Reasoning about Effect Parametricity Using Dependent Types</strong> (Master Thesis, 2019):
         <a href="https://raw.githubusercontent.com/JorisCeulemans/effect-param-agda/master/ThesisJorisCeulemans.pdf">Thesis</a>
         -
         <a href="https://github.com/JorisCeulemans/effect-param-agda">Code</a>
         <br/>
-        👤 Author: <strong>Joris Ceulemans</strong>,
+        👤 Author: <strong><a href="https://distrinet.cs.kuleuven.be/people/JorisCeulemans">Joris Ceulemans</a></strong>,
         👤 Supervisor: <a href="https://distrinet.cs.kuleuven.be/people/DominiqueDevriese">Dominique Devriese</a>,
         👤 Mentor: Andreas Nuyts.
       </ul>
@@ -401,17 +407,17 @@ I find it especially motivating to hear from people who are interested in (using
 
   <p>
   📄 <strong>Abstract Congruence Criteria for Weak Bisimilarity</strong> (MFCS '21): <a href="https://doi.org/10.4230/LIPIcs.MFCS.2021.88">DOI</a> <br/>
-  👥 By Stelios Tsampas, <a href="https://math.ucr.edu/~williams/">Christian Williams</a>, Andreas Nuyts, <a href="https://distrinet.cs.kuleuven.be/people/DominiqueDevriese">Dominique Devriese</a>, <a href="https://distrinet.cs.kuleuven.be/people/frank">Frank Piessens</a>
+  👥 By <a href="https://www8.cs.fau.de/people/stelios/">Stelios Tsampas</a>, <a href="https://math.ucr.edu/~williams/">Christian Williams</a>, Andreas Nuyts, <a href="https://distrinet.cs.kuleuven.be/people/DominiqueDevriese">Dominique Devriese</a>, <a href="https://distrinet.cs.kuleuven.be/people/frank">Frank Piessens</a>
   </p>
 
   <p>
   📄 <strong>A Categorical Approach to Secure Compilation</strong> (CMCS '20): <a href="https://doi.org/10.1007/978-3-030-57201-3_9">DOI</a> - <a href="https://arxiv.org/abs/2004.03557">ArXiv</a> <br/>
-  👥 By Stelios Tsampas, Andreas Nuyts, <a href="https://distrinet.cs.kuleuven.be/people/DominiqueDevriese">Dominique Devriese</a>, <a href="https://distrinet.cs.kuleuven.be/people/frank">Frank Piessens</a>
+  👥 By <a href="https://www8.cs.fau.de/people/stelios/">Stelios Tsampas</a>, Andreas Nuyts, <a href="https://distrinet.cs.kuleuven.be/people/DominiqueDevriese">Dominique Devriese</a>, <a href="https://distrinet.cs.kuleuven.be/people/frank">Frank Piessens</a>
   </p>
 
   <p>
   📋 <strong>A Summary on Categorical Contextual Reasoning</strong> (ACT '19): <a href="http://www.cs.ox.ac.uk/ACT2019/preproceedings/Tsampas,%20Andreas%20Nuyts,%20Dominique%20Devriese%20and%20Frank%20Piessens.pdf">Abstract</a> <br/>
-  👥 By Stelios Tsampas, Andreas Nuyts, <a href="https://distrinet.cs.kuleuven.be/people/DominiqueDevriese">Dominique Devriese</a>, <a href="https://distrinet.cs.kuleuven.be/people/frank">Frank Piessens</a>
+  👥 By <a href="https://www8.cs.fau.de/people/stelios/">Stelios Tsampas</a>, Andreas Nuyts, <a href="https://distrinet.cs.kuleuven.be/people/DominiqueDevriese">Dominique Devriese</a>, <a href="https://distrinet.cs.kuleuven.be/people/frank">Frank Piessens</a>
   </p>
   
 <h2 id="teaching">Teaching</h2>
