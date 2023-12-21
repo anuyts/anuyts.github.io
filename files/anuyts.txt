@@ -124,7 +124,7 @@
 	title = {Type Theory \`a la Mode},
 	year = {2020},
 	note = {Pre-print},
-	url = {https://anuyts.github.io/files/mtt-techreport.pdf}
+	url = {https://lirias.kuleuven.be/retrieve/635295}
 }
 
 @inproceedings{mtt-paper,
