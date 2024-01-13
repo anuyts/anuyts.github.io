@@ -1,8 +1,10 @@
+@import url('https://fonts.cdnfonts.com/css/linux-biolinum');
+
 body {
   counter-reset: section;
 
   background-color: beige;
-  font-family: "Linux Biolinum";
+  font-family: "Linux Biolinum", sans-serif;
   margin-top: 60px;
   margin-bottom: 60px;
   margin-right: max(min(15%,60px),calc(50% - 400px));
