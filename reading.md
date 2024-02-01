@@ -68,6 +68,11 @@ Alternatives are:
 * Andrea Vezzosi, Anders Mörtberg, Andreas Abel (2021): [Cubical Agda: A Dependently Typed Programming Language with Univalence and Higher Inductive Types](https://staff.math.su.se/anders.mortberg/papers/cubicalagda2.pdf), JFP Vol 31
 * The 1lab (see above)
 * The [Agda Cubical library](https://github.com/agda/cubical)
+* The original paper on cubical type theory:
+  
+  > Cyril Cohen, Thierry Coquand, Simon Huber, Anders Mörtberg (2015): [Cubical Type Theory: A Constructive Interpretation of the Univalence Axiom](https://doi.org/10.4230/LIPIcs.TYPES.2015.5), 21st International Conference on Types for Proofs and Programs (TYPES 2015)
+  
+  is a scientific breakthrough but not a good introduction to the subject.
 
 ### Parametricity
 
