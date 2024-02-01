@@ -9,13 +9,15 @@ This is a list of reading materials that I would recommend for any or all of the
 ### General
 
 * The [nLab](https://ncatlab.org) is a kind of Wikipedia for type theory and category theory. The accessibility of its articles varies wildly, but in any case it's always a good place to start looking for literature pointers.
+* The [1lab](https://1lab.dev/) is a "formalised, cross-linked reference resource for cubical methods in
+  Homotopy Type Theory", but also contains an [introduction to type theory](https://1lab.dev/1Lab.intro.html) and a formalization of category theory. The 1lab pages' source files are literate Agda files: they are both valid markdown and valid Cubical Agda files.
 * When you've found an interesting paper, its bibliography is a good place to look for related *older* papers. Using Google Scholar or the publisher's websites, you can also get a list of *newer* papers citing the current one, thus browsing the citation graph in reverse direction.
 
 ### Introduction to Category Theory
 
 * An accessible and very thorough introduction to category theory:
   <https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/>
-* Especially relevant for side effects: a brief but very illuminating text by H. Kleisli about the Kleisli category:
+* Especially relevant for monads & side effects: a brief but very illuminating text by H. Kleisli about the Kleisli category:
   <http://www.ams.org/journals/proc/1965-016-03/S0002-9939-1965-0177024-4/S0002-9939-1965-0177024-4.pdf>
   You can understand monads in functional programming as follows: pure programs (without side effects) are arrows in the category `Type` of types and functions; effectful programs (with side effects) in monad `T : Type -> Type` are arrows in the Kleisli category of `T`.
 * A text about monads and universal algebra from a mathematical viewpoint, by Anthony Voutas:
@@ -46,6 +48,7 @@ Alternatives are:
 - The book "Verified Functional Programming in Agda" by Aaron Stump
 - Type Theory and Functional Programming by Simon Thompson: <https://www.cs.kent.ac.uk/people/staff/sjt/TTFP/>
 - Agda exercise sessions from the Formal Systems course (not used every academic year): <https://github.com/anuyts/agda-sessions>
+- The 1lab (see above).
 
 ### Introduction to Coq
 
@@ -54,19 +57,23 @@ Alternatives are:
 * <https://github.com/coq/coq/wiki>
 * <https://github.com/coq/coq/wiki/Other%20Coq%20Resources>
 
-### Homotopy type theory
+### Homotopy Type Theory (HoTT)
 
 * The [HoTT-book](https://homotopytypetheory.org/) by the Univalent Foundations Program, especially chapters 1-2 and appendices A.1-3
 * Related to h-levels (the degree of complexity of a type or topological space): HoTT book §3.1 - 3.3 and §7.1.
+
+#### Cubical Type Theory and Cubical Agda
+
+* [Official Agda documentation](https://agda.readthedocs.io/en/latest/language/cubical.html)
+* Andrea Vezzosi, Anders Mörtberg, Andreas Abel (2021): [Cubical Agda: A Dependently Typed Programming Language with Univalence and Higher Inductive Types](https://staff.math.su.se/anders.mortberg/papers/cubicalagda2.pdf), JFP Vol 31
+* The 1lab (see above)
+* The [Agda Cubical library](https://github.com/agda/cubical)
 
 ### Parametricity
 
 * The book "Types and Programming Languages" (a.k.a. TAPL) by Benjamin C. Pierce, chapters 23 and 24 and prerequisites (see the dependency graph in the book's front matter). This book is also the lecture material of the Formal Systems course.
 * An accessible paper about parametricity: [Wadler, 1989, Theorems for Free](https://people.mpi-sws.org/~dreyer/tor/papers/wadler.pdf)
 * Reynolds's original paper about parametricity (less accessible): [Reynolds, 1983, Types, Abstraction and Parametric Polymorphism](http://www.cse.chalmers.se/edu/year/2010/course/DAT140_Types/Reynolds_typesabpara.pdf)
-
-One random example of an application are Van Laarhoven lenses (as implemented in the Haskell library `Control.Lens`):
-<https://hackage.haskell.org/package/lens-tutorial-1.0.4/docs/Control-Lens-Tutorial.html>
 
 ### Side effects and Monads
 
