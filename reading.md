@@ -128,6 +128,7 @@ Relevant resources:
    * [Derek Dreyer at ICFP'16](https://www.youtube.com/watch?v=PM1Atui30qU)
    * [Benjamin Pierce, The Curse of Knowledge (slides)](https://cseweb.ucsd.edu/~npolikarpova/plmw/plmw2018-curse-of-knowledge.pdf)
    * [Jesper Cockx, Ten common writing issues in student papers](https://jesper.cx/posts/writing-issues.html)
+   * [Stephen Heard, A road map for writing an Introduction](https://scientistseessquirrel.wordpress.com/2024/04/09/a-road-map-for-writing-an-introduction/)
 * Giving comprehensible talks
    * [Derek Dreyer in 2019](https://www.youtube.com/watch?v=TCytsY8pdsc)
    * [Simon Peyton Jones](https://www.microsoft.com/en-us/research/academic-program/give-great-research-talk/)
