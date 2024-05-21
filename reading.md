@@ -15,14 +15,24 @@ This is a list of reading materials that I would recommend for any or all of the
 
 ### Introduction to Category Theory
 
-* An accessible and very thorough introduction to category theory:
+* An accessible and very thorough introduction to category theory, from a viewpoint of functional programming:
+
   <https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/>
+  
 * Especially relevant for monads & side effects: a brief but very illuminating text by H. Kleisli about the Kleisli category:
+
   <http://www.ams.org/journals/proc/1965-016-03/S0002-9939-1965-0177024-4/S0002-9939-1965-0177024-4.pdf>
+  
   You can understand monads in functional programming as follows: pure programs (without side effects) are arrows in the category `Type` of types and functions; effectful programs (with side effects) in monad `T : Type -> Type` are arrows in the Kleisli category of `T`.
+  
+  **Note:** This text deals with the Kleisli category for a *co*monad rather than a monad. Moreover, it is an older text, and it uses the term "standard construction" instead of comonad.
+  
 * A text about monads and universal algebra from a mathematical viewpoint, by Anthony Voutas:
+
   "The basic theory of monads and their connection to universal algebra"
+  
   <https://voutasaur.us/monad-algebra.pdf>
+  
   What's nice is that he takes his time to explain everything and does not require much prior knowledge. Section 1 is a formula-free introduction, sections 2 and 3 are certainly worth the while. Sections 4 and 5 are interesting but not especially relevant.
 
 ### Introduction to Simple Type Theory
@@ -56,6 +66,12 @@ Alternatives are:
 
 * <https://github.com/coq/coq/wiki>
 * <https://github.com/coq/coq/wiki/Other%20Coq%20Resources>
+
+### Introduction to Lean
+The Lean theorem prover is newer than both Coq and Agda and has a large community of people working on the formalization of mathematical results.
+
+* <https://leanprover-community.github.io/learn.html>
+* <https://leanprover-community.github.io/teaching/resources.html>
 
 ### Homotopy Type Theory (HoTT)
 
