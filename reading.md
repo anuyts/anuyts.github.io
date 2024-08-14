@@ -15,8 +15,11 @@ This is a list of reading materials that I would recommend for any or all of the
 
 ### Introduction to Category Theory
 
+* Categories for the Working Mathematician, by Saunders Mac Lane (1971)
+* Category Theory, by Steve Awodey (2006)
 * An accessible and very thorough introduction to category theory, from a viewpoint of functional programming: <br/>
-  <https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/>
+  <https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/> <br/>
+  **Note:** I have been told that Milewski's text may overfocus on examples relevant to functional programming and in particular examples that fit within the limitations of Haskell to the extent that it may be antididactical.
 * Especially relevant for monads & side effects: a brief but very illuminating text by H. Kleisli about the Kleisli category: <br/>
   <http://www.ams.org/journals/proc/1965-016-03/S0002-9939-1965-0177024-4/S0002-9939-1965-0177024-4.pdf> <br/>
   You can understand monads in functional programming as follows: pure programs (without side effects) are arrows in the category `Type` of types and functions; effectful programs (with side effects) in monad `T : Type -> Type` are arrows in the Kleisli category of `T`. <br/>
