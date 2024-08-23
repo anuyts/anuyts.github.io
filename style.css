@@ -25,24 +25,40 @@ h1 {
 
 h2:before {
   counter-increment: subsection;
+  content: "❖ ";
+  float:left;
+  width: 40px;
 }
 
 h2 {
   counter-reset: subsubsection;
+  left: 40px;
+  margin-left: -40px;
 }
 
 h3:before {
   counter-increment: subsubsection;
   content: counter(subsubsection) ". ";
+  float:left;
+  width: 40px;
 }
 
 h3 {
   counter-reset: paragraph;
+  left: 40px;
+  margin-left: -40px;
 }
 
 h4:before {
   counter-increment: paragraph;
   content: counter(subsubsection) "." counter(paragraph) ". ";
+  float:left;
+  width: 40px;
+}
+
+h4 {
+  left: 40px;
+  margin-left: -40px;
 }
 
 /* unvisited link */
