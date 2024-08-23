@@ -1,3 +1,7 @@
+/*
+This CSS sheet is available under the CC0 license: https://creativecommons.org/publicdomain/zero/1.0/
+*/
+
 @import url('https://fonts.cdnfonts.com/css/linux-biolinum');
 
 body {
@@ -7,6 +11,13 @@ body {
   font-family: "Linux Biolinum", sans-serif;
   margin-top: 60px;
   margin-bottom: 60px;
+  /*
+    The space between the margins is at most 800px wide.
+    
+    When there is no space for that (i.e. window ≤920px), each margin is at least
+    - 60px wide (if the window is still fairly wide, i.e. ≥400px)
+    - 15% of the window (if the window is fairly narrow, i.e. ≤400px)
+  */
   margin-right: max(min(15%,60px),calc(50% - 400px));
   margin-left: max(min(15%,60px),calc(50% - 400px));
   width: min(max(70%,calc(100% - 120px)),800px);
@@ -26,7 +37,7 @@ h1 {
 h2:before {
   counter-increment: subsection;
   content: "❖ ";
-  float:left;
+  float: left;
   width: 40px;
 }
 
@@ -39,7 +50,7 @@ h2 {
 h3:before {
   counter-increment: subsubsection;
   content: counter(subsubsection) ". ";
-  float:left;
+  float: left;
   width: 40px;
 }
 
@@ -52,7 +63,7 @@ h3 {
 h4:before {
   counter-increment: paragraph;
   content: counter(subsubsection) "." counter(paragraph) ". ";
-  float:left;
+  float: left;
   width: 40px;
 }
 
