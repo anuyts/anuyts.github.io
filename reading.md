@@ -78,6 +78,7 @@ The Lean theorem prover is newer than both Coq and Agda and has a large communit
 * Andrea Vezzosi, Anders Mörtberg, Andreas Abel (2021): [Cubical Agda: A Dependently Typed Programming Language with Univalence and Higher Inductive Types](https://staff.math.su.se/anders.mortberg/papers/cubicalagda2.pdf), JFP Vol 31
 * The 1lab (see above)
 * The [Agda Cubical library](https://github.com/agda/cubical)
+
 * The original paper on cubical type theory:
   
   > Cyril Cohen, Thierry Coquand, Simon Huber, Anders Mörtberg (2015): [Cubical Type Theory: A Constructive Interpretation of the Univalence Axiom](https://doi.org/10.4230/LIPIcs.TYPES.2015.5), 21st International Conference on Types for Proofs and Programs (TYPES 2015)
@@ -169,6 +170,8 @@ Mailing lists:
 * types @ Chalmers: <https://lists.chalmers.se/mailman/listinfo/types>
 * types @ UPenn: <http://lists.seas.upenn.edu/mailman/listinfo/types-list>
 * types-announce: <http://lists.seas.upenn.edu/mailman/listinfo/types-announce>
+* UCLouvain/ULB/VUB joint seminar series on category theory: <https://uclouvain.be/fr/instituts-recherche/irmp/seminaire-de-theorie-des-categories.html> <br/>
+  It seems that you just need to mail them if you want to subscribe to their mailing list.
 
 Zulip chats:
 
