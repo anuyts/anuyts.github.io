@@ -167,6 +167,7 @@ Mailing lists:
 * EUtypes: <https://mailman.science.ru.nl/mailman/listinfo/eutypes>
 * [EuroProofNet](https://europroofnet.github.io/): I think you need to apply via the EU COST system but they definitely intend to be very open. Ask around (e.g. ask me) if you get stuck.
 * HoTT: see <https://homotopytypetheory.org/links/>
+* HoTTEST electronic seminar series: <https://www.math.uwo.ca/faculty/kapulkin/seminars/hottest.html>
 * types @ Chalmers: <https://lists.chalmers.se/mailman/listinfo/types>
 * types @ UPenn: <http://lists.seas.upenn.edu/mailman/listinfo/types-list>
 * types-announce: <http://lists.seas.upenn.edu/mailman/listinfo/types-announce>
