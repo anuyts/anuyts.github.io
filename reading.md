@@ -164,7 +164,6 @@ Mailing lists:
 
 * agda: <https://lists.chalmers.se/mailman/listinfo/agda>
 * Dutch categories and types seminar: <https://dutchcats.github.io/>
-* EUtypes: <https://mailman.science.ru.nl/mailman/listinfo/eutypes>
 * [EuroProofNet](https://europroofnet.github.io/): I think you need to apply via the EU COST system but they definitely intend to be very open. Ask around (e.g. ask me) if you get stuck.
 * HoTT: see <https://homotopytypetheory.org/links/>
 * HoTTEST electronic seminar series: <https://www.math.uwo.ca/faculty/kapulkin/seminars/hottest.html>
@@ -173,14 +172,18 @@ Mailing lists:
 * types-announce: <http://lists.seas.upenn.edu/mailman/listinfo/types-announce>
 * UCLouvain/ULB/VUB joint seminar series on category theory: <https://uclouvain.be/fr/instituts-recherche/irmp/seminaire-de-theorie-des-categories.html> <br/>
   It seems that you just need to mail them if you want to subscribe to their mailing list.
+* 🕰️ EUtypes: <https://mailman.science.ru.nl/mailman/listinfo/eutypes> (I don't think this is active anymore.)
 
 Zulip chats:
 
 * <https://agda.zulipchat.com>
 * <https://categorytheory.zulipchat.com>
+* <https://c-t.zulipchat.com> (Categories & types)
+* <https://dutchcats.zulipchat.com> (Dutch categories and types seminar)
 * <https://epn.zulipchat.com> (EuroProofNet)
-* <https://typ.zulipchat.com>
 * <https://hott.zulipchat.com>
+* <https://leanprover.zulipchat.com>
+* <https://typ.zulipchat.com>
 
 -----
 
