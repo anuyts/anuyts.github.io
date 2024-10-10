@@ -1,4 +1,6 @@
-#### Agda installation
+## Agda installation
+
+**Note:** This information is somewhat outdated. First and foremost, check the [installation instructions in the Agda documentation](https://agda.readthedocs.io/en/v2.7.0.1/getting-started/installation.html).
 
 (Copied from the Toledo page of the Formal Systems course.)
 
@@ -12,6 +14,6 @@ In order to work with Agda, it is essential that you have the Agda typechecker, 
 
 In any case, the code you deliver should be accepted by Agda version 2.6.0.1 using version 1.1 of the standard library (as installed in SOL N and SOL Z of the department), so you should make sure you're working with that version. You can check your Agda version by opening a terminal and entering "agda -V". Differences between versions of Agda and of the Agda standard library are not enormous, so it is feasible to work in a different version and use a computer at the department to make sure that everything type-checks with the aforementioned versions, after finishing your project. (Contact us in case this turns out to be not so easy.)
 
-It is also recommended to use the emacs configuration file provided [here](github.com/anuyts/agda-sessions). To do so, simply place the file .emacs in your home folder. (Note that you should call it ".emacs", not "emacs", but the uploading software didn't like that idea.) You also have to do this if you are working on the computers in the lab! If you already have a .emacs file, you can edit it and add the contents of our .emacs file at the bottom.
+It is also recommended to use the emacs configuration file provided [here](https://github.com/anuyts/agda-sessions). To do so, simply place the file .emacs in your home folder. (Note that you should call it ".emacs", not "emacs", but the uploading software didn't like that idea.) You also have to do this if you are working on the computers in the lab! If you already have a .emacs file, you can edit it and add the contents of our .emacs file at the bottom.
 
 Final note: the emacs extension [rainbow-delimiters](https://github.com/Fanael/rainbow-delimiters) is very recommendable when programming in Agda, Haskell, Lisp or another delimiter-intensive language. (But it seems to have become incompatible with the Agda interaction mode for emacs.)
