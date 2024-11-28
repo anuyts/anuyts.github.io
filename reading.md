@@ -84,6 +84,12 @@ The Lean theorem prover is newer than both Coq and Agda and has a large communit
   > Cyril Cohen, Thierry Coquand, Simon Huber, Anders Mörtberg (2015): [Cubical Type Theory: A Constructive Interpretation of the Univalence Axiom](https://doi.org/10.4230/LIPIcs.TYPES.2015.5), 21st International Conference on Types for Proofs and Programs (TYPES 2015)
   
   is a scientific breakthrough but not a good introduction to the subject.
+  
+* Video material
+
+  * [HoTTEST Summer School lecture by Anders Mörtberg (2022)](https://www.youtube.com/watch?v=x4cz1OgpU3M)
+  * [HoTTEST lecture by Andrea Vezzosi (2021)](https://www.youtube.com/watch?v=9RFt1Q2pHE8)
+  * ["What are hcomp and hfill?" by Jim Fowler (2022)](https://www.youtube.com/watch?v=MVtlD22Y8SQ)
 
 ### Parametricity
 
