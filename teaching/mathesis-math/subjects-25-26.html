@@ -5,34 +5,27 @@
 </head>
 <body>
 
-<title>Topics in Dependent Type Theory ('24-'25)</title>
+<title>Topics in Dependent Type Theory ('25-'26)</title>
 
-<h1 id="topics-in-dependent-type-theory">Topics in Dependent Type Theory ('24-'25)</h1>
+<h1 id="topics-in-dependent-type-theory">Topics in Dependent Type Theory ('25-'26)</h1>
 <p><strong>Supervisors:</strong></p>
 <ul>
 <li>Prof. dr. Dominique Devriese, dominique.devriese@kuleuven.be</li>
 <li>Dr. Andreas Nuyts, andreas.nuyts@kuleuven.be</li>
 </ul>
-<h2 id="event-in-april">Event in April</h2>
-<p>If you want to get a taste of (homotopy) type theory, you can consider to attend (part of) two events on this subject taking place in building 200A on Apr 2-5, 2024:</p>
-<ul>
-<li>Apr 2-3: The annual <a href="https://hott-uf.github.io/2024/">Workshop on Homotopy Type Theory / Univalent Foundations (HoTT/UF)</a>,</li>
-<li>Apr 4-5: A <a href="https://europroofnet.github.io/wg6-leuven/">meeting</a> of EuroProofNet work group 6 on type theory.</li>
-</ul>
-<p>Attendance is free. If you plan to attend full days, we ask to register for organizational reasons.</p>
 <h2 id="dependent-type-theory">Dependent Type Theory</h2>
-<p>Martin-Löf type theory (MLTT) [ML82, ML84] is a formal system introduced by Per Martin-Löf as an alternative to set theory. MLTT can serve both as a logic and as a programming language. These two aspects are seamlessly combined in a single formalism using the Curry-Howard correspondence, which encodes propositions as program types, and proofs as programs of the appropriate type. For example,</p>
+<p>Martin-Löf type theory (MLTT) [ML82, ML84] is a formal system introduced by Per Martin-Löf as an alternative to set theory. MLTT can serve both as a logic and as a programming language. These two aspects are seamlessly combined in a single formalism using the Curry-Howard correspondence, which encodes propositions as program types, and proofs as programs computing evidence. For example,</p>
 <ul>
-<li>for every assumption, which is a proposition encoded as a type, the program takes an argument of that type, to be instantiated with a proof that the assumption holds,</li>
-<li>for every universal quantification, the program takes an argument, to be instantiated with any object of the type being quantified over, and proceeds to prove the property that this object must satisfy,</li>
 <li>for every existential quantification, the program computes a witness of the type being quantified over, and proceeds to prove the property that this witness must satisfy,</li>
+<li>for every universal quantification, the program takes an argument of the type being quantified over, and proceeds to prove the property that this argument must satisfy,</li>
+<li>for every assumption, the program takes as argument a proof of the assumption, which is a program computing evidence of this assumption, and proceeds to use that argument to prove the conclusion,</li>
 <li>for every disjunction, the program will let you know which side of the disjunction it is going to prove, and proceeds to prove that side.</li>
 </ul>
 <p>As a logic, MLTT can replace Zermelo-Fraenkel set theory as a foundation for mathematics. In other words, it is possible to express general mathematical theorems and proofs within MLTT, and the expressive power of MLTT is similar to that of set theory. However, MLTT has a number of advantages, compared to set theory:</p>
 <ul>
 <li>Constructivity: from a proof that there exists an object with a certain property, we can actually reconstruct the object in question.</li>
 <li>Mechanizable proof-checking: when a proof is fully spelled out according to the formal rules of the logic (which is a considerable amount of work and is therefore almost never done for set-theoretic proofs!), a computer can check whether it is indeed a proof of the theorem it claims to prove and if not, will often be able to give useful indications of where the reasoning was flawed or a corner case was missed.</li>
-<li>Greater abstraction: natural numbers are not constructed as bizarre sets, but as objects of their own type.</li>
+<li>Greater abstraction: natural numbers are not constructed as bizarre sets, but as objects of their own type. The presence of abstract concepts in type theory not based on the set-element construct, allows for more interesting models of type theory that directly interpret abstract concepts rather than explaining everything in terms of a meaning of the set-element construct.</li>
 </ul>
 <p>As a programming language, it has the advantage that it can check safety and correctness of programs at compile-time. This is achieved by running a type-checker (which is the exact same algorithm as the proof-checker mentioned above), which will verify</p>
 <ul>
@@ -40,8 +33,17 @@
 <li>that the output has the right type regardless of the (well-typed) input,</li>
 <li>that the program satisfies its specification; any formal specification can in principle be expressed since the type system provides all logical operators.</li>
 </ul>
-<p>MLTT is part of a broader family of foundational mathematical theories called dependent type theories. Examples of dependently typed proof assistants include Agda, Coq (to be renamed to Rocq), Lean and Idris. A more exhaustive list is found on <a href="https://en.wikipedia.org/wiki/Dependent_type#Comparison_of_languages_with_dependent_types">Wikipedia</a>. Those systems are also called proof-assistants, as the user may input a proof (a computer program) interactively, that is, with constant feedback from the type-checker.</p>
-<h2 id="equality-in-type-theory">Equality in Type Theory</h2>
+<p>MLTT is part of a broader family of foundational mathematical theories called dependent type theories. Examples of dependently typed proof assistants include Agda, Coq (which is being renamed to Rocq), Lean and Idris. A more exhaustive list is found on <a href="https://en.wikipedia.org/wiki/Dependent_type#Comparison_of_languages_with_dependent_types">Wikipedia</a>. Those systems are also called proof-assistants, as the user may input a proof (a computer program) interactively, that is, with constant feedback from the type-checker.</p>
+<h2 id="possible-subjects">Possible Subjects</h2>
+<p>We propose the option to work on a master thesis in the area of dependent type theory, and including formalization work in Agda, Lean or Coq/Rocq, possibly leading to contributions to the library ecosystem of these languages. Some relevant concepts are further introduced below.</p>
+<ol type="1">
+<li>Formalization of one or more notions of algebraic theories, including their syntax and categories of algebras/models, in Agda <code>--cubical</code> or Lean. There are currently formalizations of <a href="https://github.com/DimaSamoz/agda-soas">SOMATs in plain Agda</a> (using a possibly unnecessary detour where presheaves are represented as □-coalgebras) and <a href="https://github.com/anuyts/ctx-alg/">MATs in Cubical Agda</a>.</li>
+<li>Porting or reconstructing part of the <a href="https://anuyts.github.io/#bisikkel">(Bi)Sikkel project</a> [CND25, CND22] – a formalization and implementation of multimodal type theory and its general presheaf model, in Agda using XTT (Agda <code>--cubical</code>) as a metatheory. This should simplify parts of the existing implementation, and non-Sikkel-specific concepts would be contributed to the cubical library.</li>
+<li>Formalize interesting categorical concepts in Agda <code>--cubical</code> as contributions to the cubical library.</li>
+<li>When defining a mathematical concept in type theory, there are often multiple ways to do so, which may or may not lead to equivalent notions. Even when equivalent, one definition may be more practical to work with than another. A master thesis could further explore a <a href="https://gist.github.com/anuyts/307d3a2b5ece6845d589902ae47eabe0">different definition of functors and natural transformations</a> than the one that is currently present in the Agda libraries.</li>
+</ol>
+<p>A thesis on these subjects can be written in either Dutch or English.</p>
+<h2 id="equality-in-type-theory-subjects-1-4">Equality in Type Theory (Subjects 1-4)</h2>
 <p>Equality is an important topic of interest in type theory. We distinguish two forms of equality:</p>
 <ul>
 <li>When two objects reduce to the same thing, constructed in the same way, simply by unfolding definitions, we call them <em>definitionally</em> or <em>judgementally equal</em>. Definitional equality can be observed by the type-checker, which usually only considers objects up to definitional equality.</li>
@@ -50,12 +52,13 @@
 <p>The fact that we have an identity type <code>a ≡ b</code> for <code>a, b : A</code> (<code>a</code> and <code>b</code> of type <code>A</code>) means that we can consider objects <code>p : a ≡ b</code> of the identity type, called equality/identity proofs. One wonders how we should think and reason about these. First, we should note that these proofs have a role not only in further <em>proving</em> activities but also in <em>programming</em>. Indeed, if <code>T(x)</code> is a type dependent on <code>x : A</code> and we have a proof <code>p : a ≡ b</code>, then we are allowed to convert programs of type <code>T(a)</code> to programs of type <code>T(b)</code>, via a function <code>subst(T)(p) : T(a) -&gt; T(b)</code> (as present in both the <a href="https://agda.github.io/agda-stdlib/v2.0/Relation.Binary.PropositionalEquality.Core.html#1808">Agda standard library</a> and the <a href="https://agda.github.io/cubical/Cubical.Foundations.Prelude.html#9486">Agda cubical library</a>). However, since the types <code>T(a)</code> and <code>T(b)</code> may not be <em>definitionally</em> equal, they may classify different programs, and as such, the conversion function <code>subst(T)(p) : T(a) -&gt; T(b)</code> actually has to perform a computation. This computation needs to be derived from <code>T</code> and <code>p</code>, so <code>p</code> is not just a proof of a fact, but actually carries the computationally relevant information about how to get from <code>a</code> to <code>b</code>.</p>
 <p>There are several takes on what an equality proof is:</p>
 <ul>
-<li><p>In <strong>intensional type theory (ITT)</strong>, propositional equality is essentially just the congruence generated by all equalities currently assumed. As such, if we have <code>p : a ≡ b</code>, then after all variables that <code>p</code> depends on have been instantiated with concrete values, it must be the case that <code>a</code> and <code>b</code> are really (definitionally) the same, and <code>p</code> reduces to <code>refl</code> (short for reflexivity): the proof that (definitionally) equal objects are indeed (propositionally) equal. Evaluation of <code>subst(T)(p)</code> simply waits until <code>p</code> reduces to <code>refl</code>, and then <code>subst(T)(refl)</code> reduces to the identity function.</p>
+<li><p>In <strong>intensional type theory (ITT)</strong>, propositional equality is essentially just the congruence generated by all equalities currently assumed. As such, after all these assumptions have been proven, it must be the case that propositionally equal values are in fact definitionally equal, so that any equality proof is ultimately <code>refl</code>: the proof that propositional equality is reflexive. Then <code>subst(T)(refl)</code> is simply the identity.</p>
 <p>Problematically, <strong>function extensionality</strong> – the fact that pointwise equal functions are equal – is not provable in ITT and is therefore often assumed without proof. But this means that there is an object <code>funext</code> whose existence has been postulated without providing computational content, and which is never instantiated with a concrete value. As such, conversion along equalities proven using <code>funext</code> will block.</p></li>
-<li><p>In <strong>homotopy type theory (HoTT)</strong> [Uni13], propositional equality just means isomorphism, and equality proofs are in 1-1 correspondence with isomorphisms. Clearly then, even after instantiating all variables in a proof <code>p</code>, it can still by any isomorphism and definitional equality will not be guaranteed. Thus, a computational theory of HoTT will be more complex. Early versions of HoTT would simply block on certain axioms, but <strong>cubical type theory</strong> [CCHM15] is a type system that extends HoTT and fully computes. It derives its name from the fact that it has a semantics in cubical sets (presheaves over the “cube category”). With the option <code>--cubical</code> enabled, Agda acts as a proof assistant for cubical type theory [VMA21]. A relatively extensive <a href="https://github.com/agda/cubical">standard library</a> containing a significant module for category theory exists for Agda <code>--cubical</code>.</p></li>
+<li><p>In <strong>homotopy type theory (HoTT)</strong> [Uni13], propositional equality just means isomorphism, and equality proofs are in 1-1 correspondence with isomorphisms. As there are many more isomorphisms than reflexivity proofs, a computational theory of HoTT will be more complex than one of ITT. Early versions of HoTT would simply block on certain axioms, but <strong>cubical type theory</strong> [CCHM15] is a type system that extends HoTT and fully computes. It derives its name from the fact that it has a semantics in cubical sets (presheaves over the “cube category”). With the option <code>--cubical</code> enabled, Agda acts as a proof assistant for cubical type theory [VMA21]. A relatively extensive <a href="https://github.com/agda/cubical">standard library</a> containing a significant module for category theory exists for Agda <code>--cubical</code>.</p></li>
 <li><p><strong>XTT</strong> [SAG22] is a type system in which equality proofs are regarded as in ITT, but it uses techniques from cubical type theory to allow computation with equality proofs even before they reduce to <code>refl</code>. Moreover, function extensionality is provable in XTT. For these reasons, we regard XTT as currently the most convenient system to work in when we care about computation, but do not need the full power of HoTT. To our knowledge there is currently no proof assistant for XTT, but it is sufficiently close to cubical type theory that we can simply use Agda <code>--cubical</code>.</p></li>
+<li><p>The <strong>Lean</strong> proof assistant has its own take on equality, and may have benefits similar to XTT.</p></li>
 </ul>
-<h2 id="universal-algebra-and-programming-languages">Universal Algebra and Programming Languages</h2>
+<h2 id="universal-algebra-and-programming-languages-subjects-1-2">Universal Algebra and Programming Languages (Subjects 1-2)</h2>
 <p>Universal algebra is the study of algebraic theories without commiting to a specific one (such as group theory). An algebraic theory can be specified by listing a number of operations, each with an arity, and a number of equations.</p>
 <ul>
 <li>Simple or un(i)sorted algebraic theories are theories whose algebras have only a single carrier and examples are group theory, ring theory, linear algebra over a fixed field (if we have a separate unary rescaling operation for every scalar in the field), …, but also unscoped and un(i)typed programming languages.</li>
@@ -69,21 +72,13 @@
 <li>a category of models/algebras of the theory.</li>
 </ul>
 <p>The framework of algebraic theories is of interest to mathematics, but also to the study of programming languages and proof assistants. Models of a programming language can be denotational models in which we study a logic’s soundness (a.k.a. consistency), but remarkably, important parts of a programming language implementation such as a type-checker and a compiler can also be made to fit the definition of a model/algebra of an algebraic theory and this turns out to be a good way to structure the implementation’s source code [AACMM21, FS22].</p>
-<h2 id="possible-subjects">Possible Subjects</h2>
-<p>We propose the option to work on a master thesis related to the concepts above, and including formalization work in Agda <code>--cubical</code>, likely leading to contributions to the standard cubical library.</p>
-<ul>
-<li>Formalization of one or more of the above notions of algebraic theories, including their syntax and categories of algebras/models, in Agda <code>--cubical</code>. There are currently formalizations of <a href="https://github.com/DimaSamoz/agda-soas">SOMATs in plain Agda</a> (using a possibly unnecessary detour where presheaves are represented as □-coalgebras) and <a href="https://github.com/anuyts/ctx-alg/">MATs in Cubical Agda</a>.</li>
-<li>Porting or reconstructing part of the <a href="https://anuyts.github.io/#sikkel">Sikkel project</a> [CND22] – a formalization and implementation of multimodal type theory and its general presheaf model, in Agda using XTT (Agda <code>--cubical</code>) as a metatheory. This should simplify parts of the existing implementation, and non-Sikkel-specific concepts would be contributed to the cubical library.</li>
-<li>Formalize interesting categorical concepts in Agda <code>--cubical</code> as contributions to the cubical library.</li>
-<li>When defining a mathematical concept in type theory, there are often multiple ways to do so, which may or may not lead to equivalent notions. Even when equivalent, one definition may be more practical to work with than another. A master thesis could further explore a <a href="https://gist.github.com/anuyts/307d3a2b5ece6845d589902ae47eabe0">different definition of functors and natural transformations</a> than the one that is currently present in the Agda libraries.</li>
-</ul>
-<p>A thesis on these subjects can be written in either Dutch or English.</p>
 <h2 id="relevant-courses">Relevant courses</h2>
 <p>Courses particularly relevant here (but not indispensable) are:</p>
 <ul>
-<li><a href="https://onderwijsaanbod.kuleuven.be/syllabi/e/H04H8BE.htm">Formal Systems and their Applications</a>, which <a href="https://wis.kuleuven.be/english/education/ma-math/program#Complementary">can be taken as part of the master in mathematics</a>.</li>
+<li><a href="https://onderwijsaanbod.kuleuven.be/syllabi/e/H04H8BE.htm">Formal Systems and their Applications</a>, which <a href="https://wis.kuleuven.be/english/education/ma-math/program#Complementary">can be taken as part of the master in mathematics</a>, mostly as background knowledge on computer-assisted formal reasoning.</li>
 <li><a href="https://onderwijsaanbod.kuleuven.be/syllabi/e/G0A82AE.htm">Commutative Algebra</a>, especially because of the category theory content.</li>
 <li><a href="https://onderwijsaanbod.kuleuven.be/syllabi/n/G0A98AN.htm">Wiskundige Logica</a>, mostly as background knowledge.</li>
+<li><a href="https://onderwijsaanbod.kuleuven.be/syllabi/e/G0A84AE.htm">Algebraic Topology</a>, mostly as background knowledge for understanding HoTT and cubical type theory.</li>
 </ul>
 <h2 id="further-reading">Further reading</h2>
 <p>Relevant resources can be found <a href="https://anuyts.github.io/reading.html">here</a>.</p>
@@ -93,7 +88,8 @@
 <li>AACMM21: Allais, G., Atkey, R., Chapman, J., McBride, C., &amp; McKinna, J. (2021). A type- and scope-safe universe of syntaxes with binding: their semantics and proofs. J. Funct. Program., 31, e22. https://doi.org/10.1017/S0956796820000076</li>
 <li>Car86: Cartmell, J. (1986). Generalised algebraic theories and contextual categories. Ann. Pure Appl. Logic, 32, 209–243. https://doi.org/10.1016/0168-0072(86)90053-9</li>
 <li>CCHM15: Cohen, C., Coquand, T., Huber, S., &amp; Mörtberg, A. (2015). Cubical Type Theory: A Constructive Interpretation of the Univalence Axiom. In T. Uustalu (Ed.), 21st International Conference on Types for Proofs and Programs, TYPES 2015, May 18-21, 2015, Tallinn, Estonia (Vol. 69, p.  5:1 - 5:34). Schloss Dagstuhl - Leibniz-Zentrum für Informatik. https://doi.org/10.4230/LIPIcs.TYPES.2015.5</li>
-<li>Ceulemans, J., Nuyts, A., &amp; Devriese, D. (2022). Sikkel: Multimode Simple Type Theory as an Agda Library. In J. Gibbons &amp; M. S. New (Eds.), Proceedings Ninth Workshop on Mathematically Structured Functional Programming, MSFP@ETAPS 2022, Munich, Germany, 2nd April 2022 (Vol. 360, pp. 93–112). https://doi.org/10.4204/EPTCS.360.5</li>
+<li>CND22: Sikkel: Multimode Simple Type Theory as an Agda Library. In J. Gibbons &amp; M. S. New (Eds.), Proceedings Ninth Workshop on Mathematically Structured Functional Programming, MSFP@ETAPS 2022, Munich, Germany, 2nd April 2022 (Vol. 360, pp. 93–112). https://doi.org/10.4204/EPTCS.360.5</li>
+<li>CND25: Joris Ceulemans, Andreas Nuyts, Dominique Devriese, BiSikkel: A Multimode Logical Framework in Agda. Proc. ACM Program. Lang. 9, POPL, Article 8 (January 2025), 31 pages. https://doi.org/10.1145/3704844</li>
 <li>FM13: Fiore, M. P., &amp; Mahmoud, O. (2013). Second-Order Algebraic Theories. CoRR, abs/1308.5409. http://arxiv.org/abs/1308.5409</li>
 <li>FS22: Fiore, M., &amp; Szamozvancev, D. (2022). Formal metatheory of second-order abstract syntax. Proc. ACM Program. Lang., 6(POPL), 1–29. https://doi.org/10.1145/3498715</li>
 <li>KKA19: Kaposi, A., Kovács, A., &amp; Altenkirch, T. (2019). Constructing quotient inductive-inductive types. Proc. ACM Program. Lang., 3(POPL), 2:1-2:24. https://doi.org/10.1145/3290315</li>
