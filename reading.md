@@ -6,14 +6,14 @@ This is a list of reading materials that I would recommend for any or all of the
 - because they're relevant to master thesis students,
 - because I like them.
 
-### General
+### General {#general}
 
 * The [nLab](https://ncatlab.org) is a kind of Wikipedia for type theory and category theory. The accessibility of its articles varies wildly, but in any case it's always a good place to start looking for literature pointers.
 * The [1lab](https://1lab.dev/) is a "formalised, cross-linked reference resource for cubical methods in
   Homotopy Type Theory", but also contains an [introduction to type theory](https://1lab.dev/1Lab.intro.html) and a formalization of category theory. The 1lab pages' source files are literate Agda files: they are both valid markdown and valid Cubical Agda files.
 * When you've found an interesting paper, its bibliography is a good place to look for related *older* papers. Using Google Scholar or the publisher's websites, you can also get a list of *newer* papers citing the current one, thus browsing the citation graph in reverse direction.
 
-### Introduction to Category Theory
+### Introduction to Category Theory {#ct}
 
 * Categories for the Working Mathematician, by Saunders Mac Lane (1971)
 * Category Theory, by Steve Awodey (2006)
@@ -29,19 +29,19 @@ This is a list of reading materials that I would recommend for any or all of the
   <https://voutasaur.us/monad-algebra.pdf> <br/> 
   What's nice is that he takes his time to explain everything and does not require much prior knowledge. Section 1 is a formula-free introduction, sections 2 and 3 are certainly worth the while. Sections 4 and 5 are interesting but not especially relevant.
 
-### Introduction to Simple Type Theory
+### Introduction to Simple Type Theory {#simple-types}
 
 * The book "Types and Programming Languages" (a.k.a. TAPL) by Benjamin C. Pierce, chapter 9 and prerequisites (see the dependency graph in the book's front matter). This book is also the lecture material of the [Formal Systems](https://onderwijsaanbod.kuleuven.be/syllabi/e/H04H8BE.htm) course.
   Aside of introducing simple type theory, this book focuses more on aspects of computation and decidability and less on matters of logic, soundness or categorical models. I expect that the master thesis is more likely focus on the latter.
   It seems pdfs are available online.
 
-### Introduction to Haskell
+### Introduction to Haskell {#haskell}
 
 (Not a necessity to learn Agda. Haskell is an incarnation of the kind of theoretical programming languages that is studied in the [Formal Systems](https://onderwijsaanbod.kuleuven.be/syllabi/e/H04H8BE.htm) course.)
 
 * [Learn you a Haskell for Great Good, Miran Lipovača](http://learnyouahaskell.com/). Note: this tutorial parodies grammatical errors made by non-native English speakers.
 
-### Introduction to Dependent Type Theory and Agda
+### Introduction to Dependent Type Theory and [Agda]{#agda} {#dtt}
 
 - I still think chapter 1 (and appendix A.2) of the HoTT-book is one of the better ones: <https://homotopytypetheory.org/book/>
 - I did my best to write good lecture notes for the Formal Systems course: <https://github.com/anuyts/teaching-tt>
@@ -54,25 +54,25 @@ Alternatives are:
 - Agda exercise sessions from the Formal Systems course (not used every academic year): <https://github.com/anuyts/agda-sessions>
 - The 1lab (see above).
 
-### Introduction to Coq
+### Introduction to Coq {#coq}
 
 (Coq is very powerful but also a bit harder to learn. We usually stick to Agda.)
 
 * <https://github.com/coq/coq/wiki>
 * <https://github.com/coq/coq/wiki/Other%20Coq%20Resources>
 
-### Introduction to Lean
+### Introduction to Lean {#lean}
 The Lean theorem prover is newer than both Coq and Agda and has a large community of people working on the formalization of mathematical results.
 
 * <https://leanprover-community.github.io/learn.html>
 * <https://leanprover-community.github.io/teaching/resources.html>
 
-### Homotopy Type Theory (HoTT)
+### Homotopy Type Theory (HoTT) {#hott}
 
 * The [HoTT-book](https://homotopytypetheory.org/) by the Univalent Foundations Program, especially chapters 1-2 and appendices A.1-3
 * Related to h-levels (the degree of complexity of a type or topological space): HoTT book §3.1 - 3.3 and §7.1.
 
-#### Cubical Type Theory and Cubical Agda
+#### Cubical Type Theory and Cubical Agda {#cubical}
 
 * [Official Agda documentation](https://agda.readthedocs.io/en/latest/language/cubical.html)
 * Andrea Vezzosi, Anders Mörtberg, Andreas Abel (2021): [Cubical Agda: A Dependently Typed Programming Language with Univalence and Higher Inductive Types](https://staff.math.su.se/anders.mortberg/papers/cubicalagda2.pdf), JFP Vol 31
@@ -91,13 +91,13 @@ The Lean theorem prover is newer than both Coq and Agda and has a large communit
   * [HoTTEST lecture by Andrea Vezzosi (2021)](https://www.youtube.com/watch?v=9RFt1Q2pHE8)
   * ["What are hcomp and hfill?" by Jim Fowler (2022)](https://www.youtube.com/watch?v=MVtlD22Y8SQ)
 
-### Parametricity
+### Parametricity {#parametricity}
 
 * The book "Types and Programming Languages" (a.k.a. TAPL) by Benjamin C. Pierce, chapters 23 and 24 and prerequisites (see the dependency graph in the book's front matter). This book is also the lecture material of the Formal Systems course.
 * An accessible paper about parametricity: [Wadler, 1989, Theorems for Free](https://people.mpi-sws.org/~dreyer/tor/papers/wadler.pdf)
 * Reynolds's original paper about parametricity (less accessible): [Reynolds, 1983, Types, Abstraction and Parametric Polymorphism](http://www.cse.chalmers.se/edu/year/2010/course/DAT140_Types/Reynolds_typesabpara.pdf)
 
-### Side effects and Monads
+### Side effects and Monads {#monads}
 
 Haskell is a purely functional programming language, meaning that functions behave as in mathematics: they have an input and an output, and the output depends on the input, and that's it. They do not *do* anything.
 Side effects (the technical term for doing something after all) are modelled in Haskell using the category theoretic concept of monads.
@@ -107,7 +107,7 @@ Relevant resources:
 * Kleisli's paper, mentioned above, is especially relevant.
 * Voutas's paper, mentioned above, explains monads more categorically.
 
-### Universal algebra, algebraic theories and its relevance to type theory
+### Universal algebra, algebraic theories and its relevance to type theory {#universal-algebra}
 
 Group theory is the study of groups and is an instance of the formal concept of an "algebraic theory / Lawvere theory".
 
@@ -126,7 +126,7 @@ Relevant resources:
   <https://dl.acm.org/doi/abs/10.1145/2914770.2837638>
   (Inductive types are closely related to algebraic theories)
 
-### Presheaf models of type theory
+### Presheaf models of type theory {#pshmodel}
 
 (To the extent that you're interested. Note: this subject has a tendency to turn your master thesis into a literature study.)
 For the concept of a model, see the resources on algebraic theories. The idea is that if we have a model of a dependently typed system in which we know that there is no semantic (semantic means: in the model) counterpart of a proof of the false proposition, then our type system must be sound as the false proposition is then known to be unprovable.
@@ -138,7 +138,7 @@ Relevant resources:
 * [Martin Hofmann, 1997, Syntax and Semantics of dependent types](https://www.tcs.ifi.lmu.de/mitarbeiter/martin-hofmann/pdfs/syntaxandsemanticsof-dependenttypes.pdf), chapter 4
 * In section 2.3 and chapter 4 of my [PhD thesis](https://anuyts.github.io/files/phd.pdf), I attempted to give an accessible introduction to presheaves and how presheaf categories constitute models of dependent type theory. Examples are provided. 
 
-### Communication
+### Communication {#communication}
 
 * Writing readable texts
    * [Derek Dreyer at ICFP'21](https://www.youtube.com/watch?v=KfEVdMMY1aQ)
@@ -154,7 +154,7 @@ Relevant resources:
       * [Color blindness simulator](https://www.color-blindness.com/coblis-color-blindness-simulator/)
 * [All of Derek Dreyer's slides](https://people.mpi-sws.org/~dreyer/research.html)
 
-#### Citing
+#### Citing {#citing}
 
 Good frameworks to typeset your bibliography (assuming you're using LaTeX) are bibTeX and biber. Both use the same reference file format `.bib`.
 
@@ -162,7 +162,7 @@ From [DBLP](dblp.uni-trier.de) you can obtain excellent bibTeX (and other) citat
 
 In the 21st century, please make sure that every bibliography entry contains a clickable URL (unless a somewhat permanent-looking link affiliated to either the publisher or one of the authors or their institutions is hard to find).
 
-### Community
+### Community {#community}
 
 If you are interested in ongoing research discussions or even job opportunities in the research communities related to our work, the following communication channels may be of interest:
 

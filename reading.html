@@ -20,7 +20,7 @@
 <li>The <a href="https://1lab.dev/">1lab</a> is a “formalised, cross-linked reference resource for cubical methods in Homotopy Type Theory”, but also contains an <a href="https://1lab.dev/1Lab.intro.html">introduction to type theory</a> and a formalization of category theory. The 1lab pages’ source files are literate Agda files: they are both valid markdown and valid Cubical Agda files.</li>
 <li>When you’ve found an interesting paper, its bibliography is a good place to look for related <em>older</em> papers. Using Google Scholar or the publisher’s websites, you can also get a list of <em>newer</em> papers citing the current one, thus browsing the citation graph in reverse direction.</li>
 </ul>
-<h3 id="introduction-to-category-theory">Introduction to Category Theory</h3>
+<h3 id="ct">Introduction to Category Theory</h3>
 <ul>
 <li>Categories for the Working Mathematician, by Saunders Mac Lane (1971)</li>
 <li>Category Theory, by Steve Awodey (2006)</li>
@@ -28,16 +28,16 @@
 <li>Especially relevant for monads &amp; side effects: a brief but very illuminating text by H. Kleisli about the Kleisli category: <br/> <a href="http://www.ams.org/journals/proc/1965-016-03/S0002-9939-1965-0177024-4/S0002-9939-1965-0177024-4.pdf" class="uri">http://www.ams.org/journals/proc/1965-016-03/S0002-9939-1965-0177024-4/S0002-9939-1965-0177024-4.pdf</a> <br/> You can understand monads in functional programming as follows: pure programs (without side effects) are arrows in the category <code>Type</code> of types and functions; effectful programs (with side effects) in monad <code>T : Type -&gt; Type</code> are arrows in the Kleisli category of <code>T</code>. <br/> <strong>Note:</strong> This text deals with the Kleisli category for a <em>co</em>monad rather than a monad. Moreover, it is an older text, and it uses the term “standard construction” instead of comonad.</li>
 <li>A text about monads and universal algebra from a mathematical viewpoint, by Anthony Voutas: <br/> “The basic theory of monads and their connection to universal algebra” <br/> <a href="https://voutasaur.us/monad-algebra.pdf" class="uri">https://voutasaur.us/monad-algebra.pdf</a> <br/> What’s nice is that he takes his time to explain everything and does not require much prior knowledge. Section 1 is a formula-free introduction, sections 2 and 3 are certainly worth the while. Sections 4 and 5 are interesting but not especially relevant.</li>
 </ul>
-<h3 id="introduction-to-simple-type-theory">Introduction to Simple Type Theory</h3>
+<h3 id="simple-types">Introduction to Simple Type Theory</h3>
 <ul>
 <li>The book “Types and Programming Languages” (a.k.a. TAPL) by Benjamin C. Pierce, chapter 9 and prerequisites (see the dependency graph in the book’s front matter). This book is also the lecture material of the <a href="https://onderwijsaanbod.kuleuven.be/syllabi/e/H04H8BE.htm">Formal Systems</a> course. Aside of introducing simple type theory, this book focuses more on aspects of computation and decidability and less on matters of logic, soundness or categorical models. I expect that the master thesis is more likely focus on the latter. It seems pdfs are available online.</li>
 </ul>
-<h3 id="introduction-to-haskell">Introduction to Haskell</h3>
+<h3 id="haskell">Introduction to Haskell</h3>
 <p>(Not a necessity to learn Agda. Haskell is an incarnation of the kind of theoretical programming languages that is studied in the <a href="https://onderwijsaanbod.kuleuven.be/syllabi/e/H04H8BE.htm">Formal Systems</a> course.)</p>
 <ul>
 <li><a href="http://learnyouahaskell.com/">Learn you a Haskell for Great Good, Miran Lipovača</a>. Note: this tutorial parodies grammatical errors made by non-native English speakers.</li>
 </ul>
-<h3 id="introduction-to-dependent-type-theory-and-agda">Introduction to Dependent Type Theory and Agda</h3>
+<h3 id="dtt">Introduction to Dependent Type Theory and <span id="agda">Agda</span></h3>
 <ul>
 <li>I still think chapter 1 (and appendix A.2) of the HoTT-book is one of the better ones: <a href="https://homotopytypetheory.org/book/" class="uri">https://homotopytypetheory.org/book/</a></li>
 <li>I did my best to write good lecture notes for the Formal Systems course: <a href="https://github.com/anuyts/teaching-tt" class="uri">https://github.com/anuyts/teaching-tt</a></li>
@@ -50,24 +50,24 @@
 <li>Agda exercise sessions from the Formal Systems course (not used every academic year): <a href="https://github.com/anuyts/agda-sessions" class="uri">https://github.com/anuyts/agda-sessions</a></li>
 <li>The 1lab (see above).</li>
 </ul>
-<h3 id="introduction-to-coq">Introduction to Coq</h3>
+<h3 id="coq">Introduction to Coq</h3>
 <p>(Coq is very powerful but also a bit harder to learn. We usually stick to Agda.)</p>
 <ul>
 <li><a href="https://github.com/coq/coq/wiki" class="uri">https://github.com/coq/coq/wiki</a></li>
 <li><a href="https://github.com/coq/coq/wiki/Other%20Coq%20Resources" class="uri">https://github.com/coq/coq/wiki/Other%20Coq%20Resources</a></li>
 </ul>
-<h3 id="introduction-to-lean">Introduction to Lean</h3>
+<h3 id="lean">Introduction to Lean</h3>
 <p>The Lean theorem prover is newer than both Coq and Agda and has a large community of people working on the formalization of mathematical results.</p>
 <ul>
 <li><a href="https://leanprover-community.github.io/learn.html" class="uri">https://leanprover-community.github.io/learn.html</a></li>
 <li><a href="https://leanprover-community.github.io/teaching/resources.html" class="uri">https://leanprover-community.github.io/teaching/resources.html</a></li>
 </ul>
-<h3 id="homotopy-type-theory-hott">Homotopy Type Theory (HoTT)</h3>
+<h3 id="hott">Homotopy Type Theory (HoTT)</h3>
 <ul>
 <li>The <a href="https://homotopytypetheory.org/">HoTT-book</a> by the Univalent Foundations Program, especially chapters 1-2 and appendices A.1-3</li>
 <li>Related to h-levels (the degree of complexity of a type or topological space): HoTT book §3.1 - 3.3 and §7.1.</li>
 </ul>
-<h4 id="cubical-type-theory-and-cubical-agda">Cubical Type Theory and Cubical Agda</h4>
+<h4 id="cubical">Cubical Type Theory and Cubical Agda</h4>
 <ul>
 <li><p><a href="https://agda.readthedocs.io/en/latest/language/cubical.html">Official Agda documentation</a></p></li>
 <li><p>Andrea Vezzosi, Anders Mörtberg, Andreas Abel (2021): <a href="https://staff.math.su.se/anders.mortberg/papers/cubicalagda2.pdf">Cubical Agda: A Dependently Typed Programming Language with Univalence and Higher Inductive Types</a>, JFP Vol 31</p></li>
@@ -91,14 +91,14 @@
 <li>An accessible paper about parametricity: <a href="https://people.mpi-sws.org/~dreyer/tor/papers/wadler.pdf">Wadler, 1989, Theorems for Free</a></li>
 <li>Reynolds’s original paper about parametricity (less accessible): <a href="http://www.cse.chalmers.se/edu/year/2010/course/DAT140_Types/Reynolds_typesabpara.pdf">Reynolds, 1983, Types, Abstraction and Parametric Polymorphism</a></li>
 </ul>
-<h3 id="side-effects-and-monads">Side effects and Monads</h3>
+<h3 id="monads">Side effects and Monads</h3>
 <p>Haskell is a purely functional programming language, meaning that functions behave as in mathematics: they have an input and an output, and the output depends on the input, and that’s it. They do not <em>do</em> anything. Side effects (the technical term for doing something after all) are modelled in Haskell using the category theoretic concept of monads. Relevant resources:</p>
 <ul>
 <li>A chapter in the aforementioned Haskell tutorial: <a href="http://learnyouahaskell.com/a-fistful-of-monads" class="uri">http://learnyouahaskell.com/a-fistful-of-monads</a></li>
 <li>Kleisli’s paper, mentioned above, is especially relevant.</li>
 <li>Voutas’s paper, mentioned above, explains monads more categorically.</li>
 </ul>
-<h3 id="universal-algebra-algebraic-theories-and-its-relevance-to-type-theory">Universal algebra, algebraic theories and its relevance to type theory</h3>
+<h3 id="universal-algebra">Universal algebra, algebraic theories and its relevance to type theory</h3>
 <p>Group theory is the study of groups and is an instance of the formal concept of an “algebraic theory / Lawvere theory”.</p>
 <p>Simple/dependent type theory can be seen as the study of models of type theory and in this sense is an instance of the formal concept of a “multisorted/generalized algebraic theory”.</p>
 <p>Relevant resources:</p>
@@ -109,7 +109,7 @@
 <li>I tried to explain the relevance to type theory in chapter 3 of my <a href="https://anuyts.github.io/files/phd.pdf">PhD thesis</a>. (In both instances, my contribution is only to describe what exists.)</li>
 <li>Altenkirch, Kaposi, 2016: Type Theory in Type Theory using Quotient Inductive Types: <a href="https://dl.acm.org/doi/abs/10.1145/2914770.2837638" class="uri">https://dl.acm.org/doi/abs/10.1145/2914770.2837638</a> (Inductive types are closely related to algebraic theories)</li>
 </ul>
-<h3 id="presheaf-models-of-type-theory">Presheaf models of type theory</h3>
+<h3 id="pshmodel">Presheaf models of type theory</h3>
 <p>(To the extent that you’re interested. Note: this subject has a tendency to turn your master thesis into a literature study.) For the concept of a model, see the resources on algebraic theories. The idea is that if we have a model of a dependently typed system in which we know that there is no semantic (semantic means: in the model) counterpart of a proof of the false proposition, then our type system must be sound as the false proposition is then known to be unprovable.</p>
 <p>The concept of presheaf models is inherently quite technical and takes time to sink in.</p>
 <p>Relevant resources:</p>
