@@ -54,6 +54,10 @@ Alternatives are:
 - Agda exercise sessions from the Formal Systems course (not used every academic year): <https://github.com/anuyts/agda-sessions>
 - The 1lab (see above).
 
+Videos:
+
+- [Programming and Proving in Agda](https://www.youtube.com/watch?v=AVRsH_YH7XU) by [Jesper Cockx](https://jesper.cx) (ZuriHac 2024)
+
 ### Introduction to Coq {#coq}
 
 (Coq is very powerful but also a bit harder to learn. We usually stick to Agda.)
