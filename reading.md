@@ -6,6 +6,10 @@ This is a list of reading materials that I would recommend for any or all of the
 - because they're relevant to master thesis students,
 - because I like them.
 
+Others have compiled similar lists:
+
+- Daniel Gratzer: [learning-tt](https://github.com/jozefg/learn-tt)
+
 ### General {#general}
 
 * The [nLab](https://ncatlab.org) is a kind of Wikipedia for type theory and category theory. The accessibility of its articles varies wildly, but in any case it's always a good place to start looking for literature pointers.
