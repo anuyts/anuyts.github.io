@@ -45,6 +45,15 @@ Others have compiled similar lists:
 
 * [Learn you a Haskell for Great Good, Miran Lipovača](http://learnyouahaskell.com/). Note: this tutorial parodies grammatical errors made by non-native English speakers.
 
+#### Haskell tooling {#haskell-tooling}
+Cabal is not a package manager ([1](https://ivanmiljenovic.wordpress.com/2010/03/15/repeat-after-me-cabal-is-not-a-package-manager/), [2](https://www.reddit.com/r/haskell/comments/rzev0p/why_doesnt_haskell_have_a_package_manager/)). (According to [this article](https://blog.ezyang.com/2016/08/cabal-new-build-is-a-package-manager/), `cabal new-build` is.)
+
+Using Cabal to install dependencies across different Haskell development projects, is likely to lead you into dependency hell: a place where Cabal cannot resolve your project's dependencies due to having conflicting versions installed.
+
+For mee, the Haskell tool [Stack](https://docs.haskellstack.org/en/stable/) is the easiest way out: it installs a fresh copy of the GHC (Glasgow Haskell Compiler) for each of your projects.
+
+Alternatively, [GHCup](https://www.haskell.org/ghcup/) may be a relief.
+
 ### Introduction to Dependent Type Theory and [Agda]{#agda} {#dtt}
 
 - I still think chapter 1 (and appendix A.2) of the HoTT-book is one of the better ones: <https://homotopytypetheory.org/book/>
@@ -61,6 +70,10 @@ Alternatives are:
 Videos:
 
 - [Programming and Proving in Agda](https://www.youtube.com/watch?v=AVRsH_YH7XU) by [Jesper Cockx](https://jesper.cx) (ZuriHac 2024)
+
+#### Modifying the Agda source code {#agda-hacking}
+- [A short intro](https://wiki.portal.chalmers.se/agda/Main/Hackingpreparation) by [Andreas Abel](https://www.cse.chalmers.se/~abela/)
+- [Information in the Agda code repository](https://github.com/agda/agda/blob/master/HACKING.md)
 
 ### Introduction to Coq {#coq}
 

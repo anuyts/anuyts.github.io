@@ -109,3 +109,9 @@ a:active {
 .center{
   text-align: center;
 }
+
+code {
+  font-family: "Linux Libertine", monospace;
+  font-size: 75%;
+  color: midnightblue;
+}

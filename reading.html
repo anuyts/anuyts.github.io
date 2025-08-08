@@ -14,6 +14,10 @@
 <li>because they’re relevant to master thesis students,</li>
 <li>because I like them.</li>
 </ul>
+<p>Others have compiled similar lists:</p>
+<ul>
+<li>Daniel Gratzer: <a href="https://github.com/jozefg/learn-tt">learning-tt</a></li>
+</ul>
 <h3 id="general">General</h3>
 <ul>
 <li>The <a href="https://ncatlab.org">nLab</a> is a kind of Wikipedia for type theory and category theory. The accessibility of its articles varies wildly, but in any case it’s always a good place to start looking for literature pointers.</li>
@@ -37,6 +41,11 @@
 <ul>
 <li><a href="http://learnyouahaskell.com/">Learn you a Haskell for Great Good, Miran Lipovača</a>. Note: this tutorial parodies grammatical errors made by non-native English speakers.</li>
 </ul>
+<h4 id="haskell-tooling">Haskell tooling</h4>
+<p>Cabal is not a package manager (<a href="https://ivanmiljenovic.wordpress.com/2010/03/15/repeat-after-me-cabal-is-not-a-package-manager/">1</a>, <a href="https://www.reddit.com/r/haskell/comments/rzev0p/why_doesnt_haskell_have_a_package_manager/">2</a>). (According to <a href="https://blog.ezyang.com/2016/08/cabal-new-build-is-a-package-manager/">this article</a>, <code>cabal new-build</code> is.)</p>
+<p>Using Cabal to install dependencies across different Haskell development projects, is likely to lead you into dependency hell: a place where Cabal cannot resolve your project’s dependencies due to having conflicting versions installed.</p>
+<p>For mee, the Haskell tool <a href="https://docs.haskellstack.org/en/stable/">Stack</a> is the easiest way out: it installs a fresh copy of the GHC (Glasgow Haskell Compiler) for each of your projects.</p>
+<p>Alternatively, <a href="https://www.haskell.org/ghcup/">GHCup</a> may be a relief.</p>
 <h3 id="dtt">Introduction to Dependent Type Theory and <span id="agda">Agda</span></h3>
 <ul>
 <li>I still think chapter 1 (and appendix A.2) of the HoTT-book is one of the better ones: <a href="https://homotopytypetheory.org/book/" class="uri">https://homotopytypetheory.org/book/</a></li>
@@ -53,6 +62,11 @@
 <p>Videos:</p>
 <ul>
 <li><a href="https://www.youtube.com/watch?v=AVRsH_YH7XU">Programming and Proving in Agda</a> by <a href="https://jesper.cx">Jesper Cockx</a> (ZuriHac 2024)</li>
+</ul>
+<h4 id="agda-hacking">Modifying the Agda source code</h4>
+<ul>
+<li><a href="https://wiki.portal.chalmers.se/agda/Main/Hackingpreparation">A short intro</a> by <a href="https://www.cse.chalmers.se/~abela/">Andreas Abel</a></li>
+<li><a href="https://github.com/agda/agda/blob/master/HACKING.md">Information in the Agda code repository</a></li>
 </ul>
 <h3 id="coq">Introduction to Coq</h3>
 <p>(Coq is very powerful but also a bit harder to learn. We usually stick to Agda.)</p>
