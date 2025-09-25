@@ -1,12 +1,14 @@
+[Homepage](../index.html)
+
 ## Evaluation Criteria for Master Thesis in Mathematics
 
 Experience shows that there is not always perfect clarity and agreement among the people involved (student, daily and official supervisors, readers) what are the criteria for evaluation a master thesis and its sub-assignments.
 To some extent, this situation is deliberate: due to the large diversity in master thesis topics available to mathematics students, it is hard to regulate the evaluation entirely.
 **While each person involved in the evaluation of the thesis and its sub-assignments makes their own assessment,** this page attempts to provide — based on experience — an overview of criteria that have been applied in the past, specifically for thesis subjects in type theory. **This page is not an official document, and does not regulate the evaluation process.**
 
-Regulations and timeline for the master thesis are available [here](https://wis.kuleuven.be/english/education/ma-math/master-thesis). Further information from the Faculty of Science is available [here](https://wet.kuleuven.be/studenten/masterproef/index.html) ([EN](https://wet.kuleuven.be/studenten/mastersthesis/index.html)) and [here](https://wet.kuleuven.be/studenten/masterproef/evaluatie) (Dutch only).
+Regulations and timeline for the master thesis are available [here](https://wis.kuleuven.be/english/education/ma-math/master-thesis). Further information from the Faculty of Science is available here ([NL](https://wet.kuleuven.be/studenten/masterproef/index.html) - [EN](https://wet.kuleuven.be/studenten/mastersthesis/index.html)) and here ([NL](https://wet.kuleuven.be/studenten/masterproef/evaluatie) only).
 
-The evaluation consists of the following sub-assignments:
+The evaluation usually consists of the following sub-assignments:
 
 * Intermediate report & presentation
 * Seminar
@@ -15,7 +17,7 @@ The evaluation consists of the following sub-assignments:
 
 The target audience for each of these texts & presentations are fellow students of the master of mathematics who are not necessarily working on a related topic. Material covered in relatively mainstream courses in the master of mathematics can be considered prior knowledge, type theory generally cannot.
 
-There are three presentations involved. The intermediate presentation and final defense are shorter, making it impossible to discuss all the technicalities in a way that the audience can follow. Hence, these presentations focus on the bigger picture. The seminar is longer and should therefore *also* cover some degree of technical detail.
+There are usually three presentations involved. The intermediate presentation and final defense are shorter, making it impossible to discuss all the technicalities in a way that the audience can follow. Hence, these presentations focus on the bigger picture. The seminar is longer and should therefore *also* cover some degree of technical detail.
 
 * The evaluation roster from the Faculty of Science ([NL](https://wet.kuleuven.be/studenten/masterproef/roosters/beoordelingsrooster) - [EN](https://wet.kuleuven.be/studenten/masterproef/roosters/assessmentroster)) is not 100% applicable to thesis subjects in mathematics / theoretical computer science, nor to each of the sub-assignments, but it is a useful tool for both student and assessors to keep in mind what aspects are important.
 * The evaluation scale from the Faculty of Science ([NL](https://wet.kuleuven.be/studenten/masterproef/roosters/waarderingsschaal)) and the Faculty of Engineering Science ([NL](https://eng.kuleuven.be/studeren/masterproef-en-papers#waarderingsschaal) - [EN](https://eng.kuleuven.be/en/study/masters-theses)) are useful calibration tools.
