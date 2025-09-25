@@ -1,3 +1,5 @@
+[Homepage](index.html)
+
 ## Reading materials
 
 This is a list of reading materials that I would recommend for any or all of the following reasons:
@@ -35,13 +37,13 @@ Others have compiled similar lists:
 
 ### Introduction to Simple Type Theory {#simple-types}
 
-* The book "Types and Programming Languages" (a.k.a. TAPL) by Benjamin C. Pierce, chapter 9 and prerequisites (see the dependency graph in the book's front matter). This book is also the lecture material of the [Formal Systems](https://onderwijsaanbod.kuleuven.be/syllabi/e/H04H8BE.htm) course.
+* The book "Types and Programming Languages" (a.k.a. TAPL) by Benjamin C. Pierce, chapter 9 and prerequisites (see the dependency graph in the book's front matter). This book also used to be the lecture material of the [Formal Systems](https://onderwijsaanbod.kuleuven.be/syllabi/e/H04H8BE.htm) course.
   Aside of introducing simple type theory, this book focuses more on aspects of computation and decidability and less on matters of logic, soundness or categorical models. I expect that the master thesis is more likely focus on the latter.
   It seems pdfs are available online.
 
 ### Introduction to Haskell {#haskell}
 
-(Not a necessity to learn Agda. Haskell is an incarnation of the kind of theoretical programming languages that is studied in the [Formal Systems](https://onderwijsaanbod.kuleuven.be/syllabi/e/H04H8BE.htm) course.)
+(Not a necessity to learn Agda. Haskell is an incarnation of the kind of theoretical programming languages that is studied in TAPL.)
 
 * [Learn you a Haskell for Great Good, Miran Lipovača](http://learnyouahaskell.com/). Note: this tutorial parodies grammatical errors made by non-native English speakers.
 
@@ -63,8 +65,10 @@ Alternatives are:
 
 - [Programming Language Foundations in Agda](https://plfa.github.io/)
 - The book "Verified Functional Programming in Agda" by Aaron Stump
-- Type Theory and Functional Programming by Simon Thompson: <https://www.cs.kent.ac.uk/people/staff/sjt/TTFP/>
-- Agda exercise sessions from the Formal Systems course (not used every academic year): <https://github.com/anuyts/agda-sessions>
+- ["Type Theory and Functional Programming"](https://www.cs.kent.ac.uk/people/staff/sjt/TTFP/) by Simon Thompson
+- ["Principles of Dependent Type Theory"](https://www.danielgratzer.com/papers/type-theory-book.pdf) by Carlo Angiuli and Daniel Gratzer
+- [Jesper Cockx's Agda lecture notes](https://github.com/jespercockx/agda-lecture-notes/)
+- Agda exercise sessions from the Formal Systems course (no longer used there): <https://github.com/anuyts/agda-sessions>
 - The 1lab (see above).
 
 Videos:
@@ -114,7 +118,7 @@ The Lean theorem prover is newer than both Coq and Agda and has a large communit
 
 ### Parametricity {#parametricity}
 
-* The book "Types and Programming Languages" (a.k.a. TAPL) by Benjamin C. Pierce, chapters 23 and 24 and prerequisites (see the dependency graph in the book's front matter). This book is also the lecture material of the Formal Systems course.
+* The book "Types and Programming Languages" (a.k.a. TAPL) by Benjamin C. Pierce, chapters 23 and 24 and prerequisites (see the dependency graph in the book's front matter). This book also used to be the lecture material of the Formal Systems course.
 * An accessible paper about parametricity: [Wadler, 1989, Theorems for Free](https://people.mpi-sws.org/~dreyer/tor/papers/wadler.pdf)
 * Reynolds's original paper about parametricity (less accessible): [Reynolds, 1983, Types, Abstraction and Parametric Polymorphism](http://www.cse.chalmers.se/edu/year/2010/course/DAT140_Types/Reynolds_typesabpara.pdf)
 
