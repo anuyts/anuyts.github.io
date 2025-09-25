@@ -31,7 +31,7 @@ Others have compiled similar lists:
 * A text about monads and universal algebra from a mathematical viewpoint, by Anthony Voutas: <br/>
   "The basic theory of monads and their connection to universal algebra" <br/> 
   <https://voutasaur.us/monad-algebra.pdf> <br/> 
-  What's nice is that he takes his time to explain everything and does not require much prior knowledge. Section 1 is a formula-free introduction, sections 2 and 3 are certainly worth the while. Sections 4 and 5 are interesting but not especially relevant.
+  What's nice is that he takes his time to explain everything and does not require much prior knowledge. Section 1 is a formula-free introduction, sections 2 and 3 are certainly worth the while. Sections 4 and 5 are interesting but perhaps not part of the "basic knowledge" on the subject.
 
 ### Introduction to Simple Type Theory {#simple-types}
 
