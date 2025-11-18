@@ -18,6 +18,7 @@
 
 <p>
 <strong>Email:</strong> firstname dot lastname at kuleuven dot be <br/>
+<strong>Codeberg:</strong> <a href="https://codeberg.org/anuyts/">anuyts</a> <br/>
 <strong>Github:</strong> <a href="https://github.com/anuyts">anuyts</a> <br/>
 <strong><a href="https://joinmastodon.org">Mastodon</a>:</strong> <a rel="me", href="https://fosstodon.org/@anuytstt">anuytstt@fosstodon.org</a> (I review follow requests, see my profile description on Mastodon) </p>
 
@@ -56,6 +57,7 @@
       <li> <a href="#pshmtt-general">General Multimode and Presheaf Type Theory</a>
       <li> <a href="#pshmtt-dir">Directed and Naturality Type Theory</a>
       <li> <a href="#pshmtt-param">Parametricity and Degrees of Relatedness</a>
+      <li> <a href="#pshmtt-hott">Homotopy Type Theory (HoTT)</a>
     </ol>
     <li> <a href="#effects">Effects in Dependent Type Theory</a>
     <li> <a href="#catsec">Categorical Secure Compilation</a>
@@ -71,7 +73,7 @@
 I am a postdoctoral fellow of the <a href="https://www.fwo.be">Research Foundation - Flanders (FWO)</a> at <a href="https://distrinet.cs.kuleuven.be">DistriNet</a>, <a href="https://www.kuleuven.be">KU Leuven</a>, Belgium. I obtained my PhD at this same university in August 2020, and have subsequently worked for 1 year at VUB.
 </p>
 <p>
-Most of my research is about <strong>dependent type theory</strong>.
+Most of my research is about <strong>dependent type theory</strong>, the standard theoretical foundation of <strong>contemporary proof assistants</strong> like <a href="https://rocq-prover.org/">Rocq</a>, <a href="https://agda.readthedocs.io/en/latest/getting-started/what-is-agda.html">Agda</a> and <a href="https://lean-lang.org/">Lean</a>.
 This domain, which is on the border between mathematical logic and theoretical computer science, is concerned with the development, implementation, semantics and metatheory of dependently typed languages, which are at the same time programming languages with strong compile-time guarantees and proof-assistants which can verify human-written or computer-generated proofs algorithmically.
 </p>
 <p>
@@ -79,13 +81,13 @@ There, I am interested in the theory and implementation of <a href="#pshmtt">mod
 <strong>Modal type theory</strong> extends type systems essentially with underspecified unary type formers, which can be relevant in a wide range of applications.
 By <strong>presheaf type theory</strong>, I refer to the study of presheaf models of type theory and the extension of type systems with language primitives that can be justified specifically by such models.
 Presheaf models are used to model homotopy type theory (HoTT), parametricity, directed type theory, guarded type theory and 2-level type theory. They also help out in metatheoretical arguments (e.g. to prove normalization) and can be used to simplify working with logical relations via Synthetic Tait Computability.
-<strong>Directed type theory</strong> is concerned with providing language support for functoriality of type-level operations.
-If this language support interacts well with similar support from HoTT (functoriality w.r.t. isomorphisms) and parametricity (w.r.t. relations), then I call this <strong>naturality type theory</strong>.
+<strong><a href="#pshmtt-dir">Directed type theory</a></strong> is concerned with providing language support for functoriality of type-level operations.
+If this language support interacts well with similar support from HoTT (functoriality w.r.t. isomorphisms) and parametricity (w.r.t. relations), then I call this <strong><a href="#natpt">naturality type theory</a></strong>.
 </p>
 <p>
-The above interest also led me to an interest in <a href="#syntax">general syntactic aspects of type theory</a>.
-I am also fascinated by the question of how to reason about <a href="#effects">side-effects</a> in dependent type theory.
-Furthermore, I have been involved in a line of research, headed by <a href="https://www.steliostsampas.com/">Stelios Tsampas</a>, on <a href="#catsec">categorifying secure compilation</a>.
+The above interest also led me to an interest in <a href="#syntax"><strong>general syntactic aspects of type theory</strong></a>.
+I am also fascinated by the question of how to reason about <a href="#effects"><strong>side-effects</strong></a> in dependent type theory.
+Furthermore, I have been involved in a line of research, headed by <a href="https://www.steliostsampas.com/">Stelios Tsampas</a>, on <a href="#catsec"><strong>categorifying secure compilation</strong></a>.
 </p>
 <p>
 I find it especially motivating to hear from people who are interested in (using) my work, so do not hesitate to contact me in case of questions, remarks or puzzlement about any of my papers, notes or code.
@@ -108,6 +110,7 @@ and formerly:
   
 <h2 id="new">What's New</h2>
 <ul>
+  <li> Nov 2025: 🕵️ I'm on the <a href="https://hott-uf.github.io/2026/">HoTT/UF 2026</a> program committee.
   <li> Sep 2025: 👤 <a href="https://www.yeejian.dev/">Yee-Jian Tan</a> joined our group as a PhD researcher.
   <li> Apr 2025: 🕵️ I'm on the <a href="https://popl26.sigplan.org/committee/POPL-2026-popl-research-papers-program-committee">POPL 2026 program committee</a>.
   <li> Mar 2025: 📕 <a href="https://distrinet.cs.kuleuven.be/people/JorisCeulemans">Joris Ceulemans</a> successfully defended his PhD thesis titled<br/> <a href="#phd-joris">Multimode Type Theory as a Library in Type Theory</a>
@@ -500,7 +503,16 @@ and formerly:
     </p>
   </ul>
   </p>
-  
+
+<h4 id="pshmtt-hott">Homotopy Type Theory (HoTT)</h4>
+
+  <p id="computational-uip">
+    📗 <strong>Towards Computational UIP in Cubical Agda</strong> (Master Thesis, 2025):
+    <a href="https://www.yeejian.dev/files/250820-m2-thesis.pdf">Thesis</a> <br/>
+    👤 Author: <strong><a href="https://www.yeejian.dev/">Yee-Jian Tan</a></strong>,
+    👥 Supervisors: Andreas Nuyts, <a href="https://distrinet.cs.kuleuven.be/people/DominiqueDevriese">Dominique Devriese</a>.
+  </p>
+
 <h3 id="effects">Effects in Dependent Type Theory</h3>
 
   <p id="liftprop">
