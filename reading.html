@@ -45,7 +45,7 @@
 <h4 id="haskell-tooling">Haskell tooling</h4>
 <p>Cabal is not a package manager (<a href="https://ivanmiljenovic.wordpress.com/2010/03/15/repeat-after-me-cabal-is-not-a-package-manager/">1</a>, <a href="https://www.reddit.com/r/haskell/comments/rzev0p/why_doesnt_haskell_have_a_package_manager/">2</a>). (According to <a href="https://blog.ezyang.com/2016/08/cabal-new-build-is-a-package-manager/">this article</a>, <code>cabal new-build</code> is.)</p>
 <p>Using Cabal to install dependencies across different Haskell development projects, is likely to lead you into dependency hell: a place where Cabal cannot resolve your project’s dependencies due to having conflicting versions installed.</p>
-<p>For mee, the Haskell tool <a href="https://docs.haskellstack.org/en/stable/">Stack</a> is the easiest way out: it installs a fresh copy of the GHC (Glasgow Haskell Compiler) for each of your projects.</p>
+<p>For me, the Haskell tool <a href="https://docs.haskellstack.org/en/stable/">Stack</a> is the easiest way out: it installs a fresh copy of the GHC (Glasgow Haskell Compiler) for each of your projects.</p>
 <p>Alternatively, <a href="https://www.haskell.org/ghcup/">GHCup</a> may be a relief.</p>
 <h3 id="dtt">Introduction to Dependent Type Theory and <span id="agda">Agda</span></h3>
 <ul>
@@ -107,8 +107,12 @@
 </ul></li>
 </ul>
 <h3 id="parametricity">Parametricity</h3>
+<p>Before you can talk about parametricity, you need a type system with polymorphism:</p>
 <ul>
 <li>The book “Types and Programming Languages” (a.k.a. TAPL) by Benjamin C. Pierce, chapters 23 and 24 and prerequisites (see the dependency graph in the book’s front matter). This book also used to be the lecture material of the Formal Systems course.</li>
+</ul>
+<p>Then you’re ready to learn about parametricity:</p>
+<ul>
 <li>An accessible paper about parametricity: <a href="https://people.mpi-sws.org/~dreyer/tor/papers/wadler.pdf">Wadler, 1989, Theorems for Free</a></li>
 <li>Reynolds’s original paper about parametricity (less accessible): <a href="http://www.cse.chalmers.se/edu/year/2010/course/DAT140_Types/Reynolds_typesabpara.pdf">Reynolds, 1983, Types, Abstraction and Parametric Polymorphism</a></li>
 </ul>
@@ -170,13 +174,14 @@
 <ul>
 <li>agda: <a href="https://lists.chalmers.se/mailman/listinfo/agda" class="uri">https://lists.chalmers.se/mailman/listinfo/agda</a></li>
 <li>Dutch categories and types seminar: <a href="https://dutchcats.github.io/" class="uri">https://dutchcats.github.io/</a></li>
-<li><a href="https://europroofnet.github.io/">EuroProofNet</a>: I think you need to apply via the EU COST system but they definitely intend to be very open. Ask around (e.g. ask me) if you get stuck.</li>
+<li>GdR GPL mailing list (partly in French): <a href="https://gdr-gpl.cnrs.fr/?page_id=343" class="uri">https://gdr-gpl.cnrs.fr/?page_id=343</a></li>
 <li>HoTT: see <a href="https://homotopytypetheory.org/links/" class="uri">https://homotopytypetheory.org/links/</a></li>
 <li>HoTTEST electronic seminar series: <a href="https://www.math.uwo.ca/faculty/kapulkin/seminars/hottest.html" class="uri">https://www.math.uwo.ca/faculty/kapulkin/seminars/hottest.html</a></li>
 <li>types @ Chalmers: <a href="https://lists.chalmers.se/mailman/listinfo/types" class="uri">https://lists.chalmers.se/mailman/listinfo/types</a></li>
 <li>types @ UPenn: <a href="http://lists.seas.upenn.edu/mailman/listinfo/types-list" class="uri">http://lists.seas.upenn.edu/mailman/listinfo/types-list</a></li>
 <li>types-announce: <a href="http://lists.seas.upenn.edu/mailman/listinfo/types-announce" class="uri">http://lists.seas.upenn.edu/mailman/listinfo/types-announce</a></li>
 <li>UCLouvain/ULB/VUB joint seminar series on category theory: <a href="https://uclouvain.be/fr/instituts-recherche/irmp/seminaire-de-theorie-des-categories.html" class="uri">https://uclouvain.be/fr/instituts-recherche/irmp/seminaire-de-theorie-des-categories.html</a> <br/> It seems that you just need to mail them if you want to subscribe to their mailing list.</li>
+<li>🕰️ <a href="https://europroofnet.github.io/">EuroProofNet</a>: I think you need to apply via the EU COST system but they definitely intend to be very open. Ask around (e.g. ask me) if you get stuck. (EuroProofNet terminates in 2025.)</li>
 <li>🕰️ EUtypes: <a href="https://mailman.science.ru.nl/mailman/listinfo/eutypes" class="uri">https://mailman.science.ru.nl/mailman/listinfo/eutypes</a> (I don’t think this is active anymore.)</li>
 </ul>
 <p>Zulip chats:</p>

@@ -52,7 +52,7 @@ Cabal is not a package manager ([1](https://ivanmiljenovic.wordpress.com/2010/03
 
 Using Cabal to install dependencies across different Haskell development projects, is likely to lead you into dependency hell: a place where Cabal cannot resolve your project's dependencies due to having conflicting versions installed.
 
-For mee, the Haskell tool [Stack](https://docs.haskellstack.org/en/stable/) is the easiest way out: it installs a fresh copy of the GHC (Glasgow Haskell Compiler) for each of your projects.
+For me, the Haskell tool [Stack](https://docs.haskellstack.org/en/stable/) is the easiest way out: it installs a fresh copy of the GHC (Glasgow Haskell Compiler) for each of your projects.
 
 Alternatively, [GHCup](https://www.haskell.org/ghcup/) may be a relief.
 
@@ -118,7 +118,12 @@ The Lean theorem prover is newer than both Coq and Agda and has a large communit
 
 ### Parametricity {#parametricity}
 
+Before you can talk about parametricity, you need a type system with polymorphism:
+
 * The book "Types and Programming Languages" (a.k.a. TAPL) by Benjamin C. Pierce, chapters 23 and 24 and prerequisites (see the dependency graph in the book's front matter). This book also used to be the lecture material of the Formal Systems course.
+
+Then you're ready to learn about parametricity:
+
 * An accessible paper about parametricity: [Wadler, 1989, Theorems for Free](https://people.mpi-sws.org/~dreyer/tor/papers/wadler.pdf)
 * Reynolds's original paper about parametricity (less accessible): [Reynolds, 1983, Types, Abstraction and Parametric Polymorphism](http://www.cse.chalmers.se/edu/year/2010/course/DAT140_Types/Reynolds_typesabpara.pdf)
 
@@ -195,7 +200,7 @@ Mailing lists:
 
 * agda: <https://lists.chalmers.se/mailman/listinfo/agda>
 * Dutch categories and types seminar: <https://dutchcats.github.io/>
-* [EuroProofNet](https://europroofnet.github.io/): I think you need to apply via the EU COST system but they definitely intend to be very open. Ask around (e.g. ask me) if you get stuck.
+* GdR GPL mailing list (partly in French): <https://gdr-gpl.cnrs.fr/?page_id=343>
 * HoTT: see <https://homotopytypetheory.org/links/>
 * HoTTEST electronic seminar series: <https://www.math.uwo.ca/faculty/kapulkin/seminars/hottest.html>
 * types @ Chalmers: <https://lists.chalmers.se/mailman/listinfo/types>
@@ -203,6 +208,7 @@ Mailing lists:
 * types-announce: <http://lists.seas.upenn.edu/mailman/listinfo/types-announce>
 * UCLouvain/ULB/VUB joint seminar series on category theory: <https://uclouvain.be/fr/instituts-recherche/irmp/seminaire-de-theorie-des-categories.html> <br/>
   It seems that you just need to mail them if you want to subscribe to their mailing list.
+* 🕰️ [EuroProofNet](https://europroofnet.github.io/): I think you need to apply via the EU COST system but they definitely intend to be very open. Ask around (e.g. ask me) if you get stuck. (EuroProofNet terminates in 2025.)
 * 🕰️ EUtypes: <https://mailman.science.ru.nl/mailman/listinfo/eutypes> (I don't think this is active anymore.)
 
 Zulip chats:
