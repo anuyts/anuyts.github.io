@@ -40,3 +40,6 @@
 📄 Marcelo Fiore and Dmitrij Szamozvancev. 2022. Formal metatheory of second-order abstract syntax. Proc. ACM Program. Lang. 6, POPL (2022), 1–29. DOI: <https://doi.org/10.1145/3498715>
 
 📕 András Kovács. 2022. Type-Theoretic Signatures for Algebraic Theories and Inductive Types. phdthesis. Eötvös Loránd University, Budapest, Hungary. Retrieved from <https://andraskovacs.github.io/pdfs/phdthesis_compact.pdf>
+
+### Fixpoints in Type Theory
+📄 S. Doaitse Swierstra, Marcos Viera, and Atze Dijkstra. 2016. A Lazy Language Needs a Lazy Type System: Introducing Polymorphic Contexts. In Proceedings of the 28th Symposium on the Implementation and Application of Functional Programming Languages (IFL 2016), Association for Computing Machinery, Leuven, Belgium. DOI: <https://doi.org/10.1145/3064899.3064906>
