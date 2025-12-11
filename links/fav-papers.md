@@ -45,7 +45,7 @@
 
 📕 András Kovács. 2022. Type-Theoretic Signatures for Algebraic Theories and Inductive Types. phdthesis. Eötvös Loránd University, Budapest, Hungary. Retrieved from <https://andraskovacs.github.io/pdfs/phdthesis_compact.pdf>
 
-### Fixpoints in Type Theory
+### Guarded Type Theory and Other Fixpoints
 📄 S. Doaitse Swierstra, Marcos Viera, and Atze Dijkstra. 2016. A Lazy Language Needs a Lazy Type System: Introducing Polymorphic Contexts. In Proceedings of the 28th Symposium on the Implementation and Application of Functional Programming Languages (IFL 2016), Association for Computing Machinery, Leuven, Belgium. DOI: <https://doi.org/10.1145/3064899.3064906>
 
 📄 Daniel Gratzer. 2025. A Modal Deconstruction of Löb Induction. Proc. ACM Program. Lang. 9, POPL, Article 30 (January 2025), 29 pages. <https://doi.org/10.1145/3704866>
