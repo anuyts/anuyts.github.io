@@ -13,6 +13,10 @@
 
 - 📄 Evan Cavallo and Robert Harper. 2020. Internal Parametricity for Cubical Type Theory. In 28th EACSL Annual Conference on Computer Science Logic, CSL 2020, January 13-16, 2020, Barcelona, Spain, 13:1-13:17. DOI: <https://doi.org/10.4230/LIPIcs.CSL.2020.13>
 
+### Nominal type theory
+
+📄 Ulrich Schöpp and Ian Stark. 2004. A Dependent Type Theory with Names and Binding. In Computer Science Logic, 18th International Workshop, CSL 2004, 13th Annual Conference of the EACSL, Karpacz, Poland, September 20-24, 2004, Proceedings (Lecture Notes in Computer Science), Springer, 235–249. DOI: <https://doi.org/10.1007/978-3-540-30124-0\_20>
+
 ### Modal Type Theory
 
 📄 Frank Pfenning. 2001. Intensionality, Extensionality, and Proof Irrelevance in Modal Type Theory. In LICS ’01, 221–230. DOI: <https://doi.org/10.1109/LICS.2001.932499>
