@@ -167,6 +167,7 @@ Relevant resources:
 
 * [Martin Hofmann, 1997, Syntax and Semantics of dependent types](https://www.tcs.ifi.lmu.de/mitarbeiter/martin-hofmann/pdfs/syntaxandsemanticsof-dependenttypes.pdf), chapter 4
 * In section 2.3 and chapter 4 of my [PhD thesis](https://anuyts.github.io/files/phd.pdf), I attempted to give an accessible introduction to presheaves and how presheaf categories constitute models of dependent type theory. Examples are provided. 
+* The [BiSikkel](https://github.com/JorisCeulemans/bisikkel) codebase contains a formalization of the presheaf model of *dependent* type theory in Agda.
 
 ### Communication {#communication}
 
