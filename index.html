@@ -128,7 +128,7 @@ and formerly:
 
 <h2>My Research and Publications</h2>
 
-<!-- 📑📋📄📕📝📒🔒🔐🔑💻📺➡️🕰🪶🔗📐🗜️⚙️🛠️🔬📇⏳🎓✉️⭐ -->
+<!-- 📑📋📄📕📝📒🔒🔐🔑💻📺➡️🕰🪶🔗📐🗜️⚙️🛠️🔬📇⏳🎓✉️⭐🤦 -->
   
 <h3 id="cat">Category Theory</h3>
 
@@ -160,7 +160,8 @@ and formerly:
 
   <p id="keml">
   📜 <strong>Understanding Universal Algebra Using Kleisli-Eilenberg-Moore-Lawvere Diagrams</strong> (2022)<br/>
-  🔗 <a href="files/keml-diagrams.pdf">Note</a>
+  🔗 <a href="files/keml-diagrams.pdf">Note</a> <br/>
+  🤦 Section 8 on higher order algebraic theories misses their point; I should fix or remove it.
   </p>
   
 <h3 id="pshmtt">Multimode and Presheaf Type Theory</h3>
@@ -273,7 +274,7 @@ and formerly:
   🕰️ This approach seems to be a dead end, take <a href="https://doi.org/10.46298/ENTICS.12300">Shulman's approach</a> instead. 
   </p>
   
-  <p>
+  <p id="multimode-agda">
   📜 <strong>Proposal: Multimode Agda</strong> (AIM Nov '22): <a href="https://github.com/anuyts/public/blob/main/agda/modal.md">Note</a>
   </p>
 
@@ -347,6 +348,7 @@ and formerly:
           <li> Sec. 10.1.1 "Towards Higher Directed Type Theory", </br>
           📜 See also <a href="#natpt">"A Vision for Natural Type Theory"</a>.
         </ul>
+        <li> 🤦 In a terminological / idiomatic mixup, I erroneously used the word (co)slice to refer to an object of the (co)slice category, rather than the (co)slice category as a whole.
       </ul>
     <li> Public defense: <a href="https://github.com/anuyts/anuyts.github.io/releases/download/phd-public/pub.pdf">Slides</a><span style="color:red">*</span> (for a general non-CS audience)
     <li> Announcement for informed outsiders:
@@ -356,6 +358,7 @@ and formerly:
   </ul>
   </p>
 
+  <p id="ctx-fib">
   🗂️ <strong>Robust Notions of Contextual Fibrancy</strong> (2020) <br/>
   <ul>
     <li> 📖 See ch. 8 of my <a href="#phd">PhD thesis</a> (2020).
@@ -365,7 +368,9 @@ and formerly:
       -
       Slides<span style="color:red">*</span> (<a href="files/pres-rob-hott-uf.pdf">Local copy</a> - <a href="https://hott-uf.github.io/2018/slides/Nuyts2HoTTUF2018.pdf">HoTT/UF copy</a>)
   </ul>
+  </p>
 
+  <p id="menkar">
   💻 <strong>Menkar</strong> - the multimode presheaf proof assistant<br/>
   Currently on hold for reasons of performance, although I have <em>not</em> given up on the goal of implementing a multimode presheaf proof assistant.<br/>
   <ul>
@@ -377,6 +382,7 @@ and formerly:
       <a href="files/pres-menkar-types19.pdf">Slides</a><span style="color:red">*</span>
       (TYPES '19)
   </ul>
+  </p>
   
 <h4 id="pshmtt-dir">Directed and Naturality Type Theory</h4>
 
@@ -408,7 +414,7 @@ and formerly:
   <a href="https://github.com/agda/agda/pull/6385">Pull request</a>
   </p>
 
-  <p>
+  <p id="mathesis">
   📗 <strong>Towards a Directed Homotopy Type Theory based on 4 Kinds of Variance</strong> (Master thesis, 2015)<br/>
   👥 Supervisors:
     <a href="https://distrinet.cs.kuleuven.be/people/DominiqueDevriese">Dominique Devriese</a>,
@@ -427,10 +433,9 @@ and formerly:
 <h4 id="pshmtt-param">Parametricity and Degrees of Relatedness</h4>
   
   <p id="0ptt">
-  📝 <strong>Nominal Type Theory by Nullary Internal Parametricity</strong><br/>
+  📝 <strong>Nominal Type Theory by Nullary Internal Parametricity</strong> (2025)<br/>
   👥 By <a href="https://antoinevanmuylder.github.io/">Antoine Van Muylder</a>, Andreas Nuyts, <a href="https://distrinet.cs.kuleuven.be/people/DominiqueDevriese">Dominique Devriese</a><br/>
   🔗 Pre-print (<a href="https://arxiv.org/abs/2512.09464">ArXiv</a> - <a href="files/wip/0ptt.pdf">Local copy</a>)
-  
   </p>
   
   <p id="bridgy">
@@ -544,7 +549,7 @@ and formerly:
   
 <h3 id="catsec">Categorical Secure Compilation</h3>
 
-  <p>
+  <p id="weak-bisim">
   📄 <strong>Abstract Congruence Criteria for Weak Bisimilarity</strong> (MFCS '21):
   <a href="https://lirias.kuleuven.be/retrieve/631084">Lirias</a>
   -
@@ -553,7 +558,7 @@ and formerly:
   👥 By <a href="https://www.steliostsampas.com/">Stelios Tsampas</a>, <a href="https://math.ucr.edu/~williams/">Christian Williams</a>, Andreas Nuyts, <a href="https://distrinet.cs.kuleuven.be/people/DominiqueDevriese">Dominique Devriese</a>, <a href="https://distrinet.cs.kuleuven.be/people/frank">Frank Piessens</a>
   </p>
 
-  <p>
+  <p id="catsec20">
   📄 <strong>A Categorical Approach to Secure Compilation</strong> (CMCS '20):
   <a href="https://lirias.kuleuven.be/retrieve/569380">Lirias</a>
   -
@@ -564,7 +569,7 @@ and formerly:
   👥 By <a href="https://www.steliostsampas.com/">Stelios Tsampas</a>, Andreas Nuyts, <a href="https://distrinet.cs.kuleuven.be/people/DominiqueDevriese">Dominique Devriese</a>, <a href="https://distrinet.cs.kuleuven.be/people/frank">Frank Piessens</a>
   </p>
 
-  <p>
+  <p id="catsec19">
   📋 <strong>A Summary on Categorical Contextual Reasoning</strong> (ACT '19):
   Abstract (<a href="https://lirias.kuleuven.be/retrieve/735709">Lirias</a> - <a href="http://www.cs.ox.ac.uk/ACT2019/preproceedings/Tsampas,%20Andreas%20Nuyts,%20Dominique%20Devriese%20and%20Frank%20Piessens.pdf">ACT copy</a>)
   <br/>
