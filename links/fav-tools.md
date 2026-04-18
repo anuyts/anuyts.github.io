@@ -1,4 +1,4 @@
-[Homepage](index.html)
+[Homepage](../index.html)
 
 ## Some of my Favorite Tools
 
